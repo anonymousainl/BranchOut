@@ -1,0 +1,161 @@
+{
+  "loc_list": [
+    "Хижина ученика у кромки леса",
+    "Окраина леса",
+    "Светящаяся полоса корней – Древняя тропа",
+    "Лиминальная поляна с полупрозрачным светом",
+    "Лагерь охотников в тенях",
+    "Перекрёсток сказок",
+    "Проклятое королевство искажённых имён деревьев",
+    "Дуб‑Вечный – Древо Имен",
+    "Подножие Древа Имен",
+    "Деревня Алена (домашняя деревня)",
+    "Тропы хранителя древних путей"
+  ],
+  "loc_graph": {
+    "nodes": [
+      {
+        "id": "Хижина ученика у кромки леса",
+        "label": "Хижина ученика у кромки леса",
+        "type": "outdoor"
+      },
+      {
+        "id": "Окраина леса",
+        "label": "Окраина леса",
+        "type": "outdoor"
+      },
+      {
+        "id": "Светящаяся полоса корней – Древняя тропа",
+        "label": "Светящаяся полоса корней – Древняя тропа",
+        "type": "outdoor"
+      },
+      {
+        "id": "Лиминальная поляна с полупрозрачным светом",
+        "label": "Лиминальная поляна с полупрозрачным светом",
+        "type": "outdoor"
+      },
+      {
+        "id": "Лагерь охотников в тенях",
+        "label": "Лагерь охотников в тенях",
+        "type": "outdoor"
+      },
+      {
+        "id": "Перекрёсток сказок",
+        "label": "Перекрёсток сказок",
+        "type": "outdoor"
+      },
+      {
+        "id": "Проклятое королевство искажённых имён деревьев",
+        "label": "Проклятое королевство искажённых имён деревьев",
+        "type": "outdoor"
+      },
+      {
+        "id": "Дуб‑Вечный – Древо Имен",
+        "label": "Дуб‑Вечный – Древо Имен",
+        "type": "special"
+      },
+      {
+        "id": "Подножие Древа Имен",
+        "label": "Подножие Древа Имен",
+        "type": "outdoor"
+      },
+      {
+        "id": "Деревня Алена (домашняя деревня)",
+        "label": "Деревня Алена (домашняя деревня)",
+        "type": "city"
+      },
+      {
+        "id": "Тропы хранителя древних путей",
+        "label": "Тропы хранителя древних путей",
+        "type": "wilderness"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Хижина ученика у кромки леса",
+        "target": "Окраина леса",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Окраина леса",
+        "target": "Светящаяся полоса корней – Древняя тропа",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Светящаяся полоса корней – Древняя тропа",
+        "target": "Лиминальная поляна с полупрозрачным светом",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Лиминальная поляна с полупрозрачным светом",
+        "target": "Лагерь охотников в тенях",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Лагерь охотников в тенях",
+        "target": "Перекрёсток сказок",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Перекрёсток сказок",
+        "target": "Проклятое королевство искажённых имён деревьев",
+        "label": "conditional",
+        "directed": true,
+        "bidirectional": false
+      },
+      {
+        "source": "Проклятое королевство искажённых имён деревьев",
+        "target": "Дуб‑Вечный – Древо Имен",
+        "label": "secret",
+        "directed": true,
+        "bidirectional": false
+      },
+      {
+        "source": "Дуб‑Вечный – Древо Имен",
+        "target": "Подножие Древа Имен",
+        "label": "direct_path",
+        "directed": true,
+        "bidirectional": true
+      },
+      {
+        "source": "Подножие Древа Имен",
+        "target": "Тропы хранителя древних путей",
+        "label": "transport",
+        "directed": true,
+        "bidirectional": false
+      },
+      {
+        "source": "Тропы хранителя древних путей",
+        "target": "Деревня Алена (домашняя деревня)",
+        "label": "transport",
+        "directed": true,
+        "bidirectional": false
+      }
+    ]
+  },
+  "loc_description": {
+    "descriptions": [
+      "A low-angle wide shot from the forest edge looking up at a modest wooden hut perched on a moss‑covered clearing; the composition frames the thatched roof against the towering pines, a crooked stone chimney exhaling faint wisps of smoke, and a simple hand‑carved door half‑open to reveal a dim interior. The architecture is rustic timber with interwoven bark panels, a roof of dried reeds, and a surrounding fence of woven willow branches. The layout shows a narrow dirt path leading to the door, scattered herbs and dried herbs hanging from the eaves, and a small stone well nearby. The atmosphere is quiet and misty, with early morning light filtering through the canopy, casting soft, dappled shadows across the hut’s weathered planks. Textures emphasize the rough bark, the soft thatch, the slick wet stones, and the faint glow of firelight inside. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A sweeping aerial view from a high angle, centered on the forest's outer rim where open meadow meets dense woodland; the composition balances a golden‑lit clearing with a sea of dark, ancient trees, a meandering brook glinting in the distance, and a faint trail of fallen leaves. Architecture is absent, focusing on natural layout: rolling hills, scattered birch groves, and a thin veil of fog that rolls off the meadow. The atmosphere feels transitional, with cool breezes stirring the grass and a gentle sunrise casting a warm amber glow that gradually deepens into cool shadows among the trees. Lighting highlights the contrast between sun‑kissed grass and the deepening shade of the forest, creating a subtle rim light on the treetops. Textures showcase the soft, dewy grass, the rough bark of towering oaks, the smooth water of the brook, and the delicate mist. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A ground‑level tracking shot following a luminous strip of roots that winds like a river through the forest floor; the composition follows the glowing pathway, flanked by towering ancient trunks and clusters of phosphorescent fungi. Architecture is natural, with the layout forming a narrow, raised corridor of intertwined roots that emit a soft blue‑green light, casting eerie reflections on the surrounding moss. The atmosphere is mystical and silent, with a faint hum of unseen magic and a cool, damp air that carries the scent of earth. Lighting comes from the bioluminescent roots themselves, providing a gentle, otherworldly illumination that highlights the wet, glossy texture of the roots and the velvety moss beside them. Distinctive features include occasional crystal‑like stones embedded in the roots and faint glyphs etched into the bark of nearby trees. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A high‑angle panoramic shot looking down onto a liminal clearing bathed in semi‑transparent light, with the composition centered on a circular meadow surrounded by towering, mist‑shrouded trees whose trunks seem to fade into the fog. The architecture is purely natural, with a layout of gently rolling grass, a shallow reflective pool at the center, and faint, floating motes of light that drift like fireflies. The atmosphere feels ethereal and timeless, with a soft, cool breeze that carries a faint scent of pine and distant water. Lighting is diffused, creating a veil of pastel hues—lavender, pale teal, and soft gold—that filter through the mist, giving the scene a dreamlike glow. Textures emphasize the silky grass, the smooth surface of the pool, the delicate veil of fog, and the subtle glimmer on the leaves. Distinctive features include a circle of ancient standing stones partially covered in lichen, each emitting a faint pulse of light. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A dramatic low‑angle shot from within a shadowed clearing, focusing on a rugged hunters’ camp nestled among twisted pines; the composition places a smoldering fire at the foreground, rough canvas tents pitched in a semi‑circle, and a makeshift wooden watchtower looming in the background. Architecture consists of crude timber frames, bark‑covered walls, and a central stone hearth surrounded by scattered weapon racks and animal pelts. The layout is organized for quick movement: narrow pathways between tents, a concealed trapdoor leading to a hidden storage pit, and a perimeter of sharpened stakes. The atmosphere is tense and foreboding, with heavy, lingering shadows and a faint scent of pine resin and smoke. Lighting is low, with the fire casting flickering orange‑red hues that highlight the rough textures of the canvas, the charred wood, and the glint of metal on weapons. Distinctive features include a blood‑stained hunting trophy mounted on a post and a weathered map of the ancient trails pinned to a tree trunk. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A balanced wide‑shot from a slightly elevated perspective, capturing a crossroads where three distinct paths converge beneath an ancient stone archway etched with runic symbols; the composition places the arch at the center, each path leading toward a different thematic landscape—one shrouded in mist, another bathed in golden light, and the third cloaked in twilight shadows. Architecture includes the central stone arch, flanked by weathered pillars covered in ivy, and small stone markers bearing carved sigils at each route’s entrance. The layout is symmetrical, with the paths radiating outward like spokes, each lined with unique flora—luminescent mushrooms, golden wheat, and dark thorns. The atmosphere feels charged with narrative potential, a subtle hum of unseen stories echoing through the air. Lighting varies per path: soft, diffused morning light on the golden route, cool, silvery moonlight on the twilight path, and muted, mist‑filled glow on the foggy trail. Textures highlight the rough granite of the arch, the smooth moss on the stones, and the varied ground cover of each path. Distinctive features include a floating lantern that hovers above the arch, casting a gentle, multicolored glow. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A dramatic high‑contrast shot from a low angle looking up at a cursed kingdom of twisted trees whose names are etched in distorted script; the composition frames a ruined stone palace half‑overgrown with gnarly branches, a sky choked with storm clouds, and a river of blackened sap flowing through the streets. Architecture is a blend of medieval stonework and organic corruption: crumbling towers, archways warped by invasive roots, and shattered stained‑glass windows that now reflect a sickly green hue. The layout shows a once‑orderly city now in disarray, with streets tangled by massive roots, collapsed bridges, and scattered debris. The atmosphere is oppressive and foreboding, with a cold wind carrying whispers of broken names and a faint metallic scent. Lighting is stark, with occasional flashes of lightning illuminating the warped silhouettes, casting deep shadows that emphasize the grotesque textures of bark‑like stone and the slick, oily surface of the sap. Distinctive features include a towering monolith bearing a shattered nameplate and a flock of crows perched on twisted spires. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A majestic upward‑looking shot from the forest floor toward a colossal ancient oak, the Eternal Oak, whose massive trunk dominates the frame; the composition centers the tree’s sprawling canopy, interlaced with glowing runes and hanging lanterns, while roots spread like veins across the ground. Architecture is natural yet sacred: a hollowed trunk serving as a vaulted hall, branches forming natural arches, and a ring of stone altars encircling the base. The layout reveals concentric circles of moss‑covered stones, each etched with names of the forest, leading up to a central platform where the tree’s heart glows with inner light. The atmosphere is reverent and timeless, with a gentle breeze rustling leaves and a faint hum of ancient magic. Lighting is radiant, with shafts of golden sunlight piercing the canopy, illuminating the runes in a soft amber glow, and creating dappled patterns on the forest floor. Textures emphasize the rough bark, the smooth polished stone of the altars, the velvety moss, and the delicate glow of fireflies. Distinctive features include a crown of crystal blossoms that pulse with light and a cascade of silver vines that drape from the highest branches. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A serene eye‑level shot from the base of the Tree of Names, focusing on the foot of the massive trunk where a stone circle and a modest altar rest; the composition places the ancient roots spreading outward, a shallow pool of clear water reflecting the tree’s bark, and scattered rune‑carved stones arranged in a spiral. Architecture is minimal, consisting of a low stone platform, a wooden bench carved with intricate leaf motifs, and a small shrine made of intertwined branches. The layout is harmonious, with the pool mirroring the tree’s silhouette, pathways of smooth pebbles leading to the altar, and delicate ferns framing the scene. The atmosphere is calm and contemplative, with a gentle mist rising from the water and a faint scent of pine and earth. Lighting is soft, with late‑afternoon sun filtering through the canopy, casting warm highlights on the stone and cool shadows in the pool’s depths. Textures highlight the cool, polished stone, the wet glassy surface of the water, the rough bark of the roots, and the soft moss covering the ground. Distinctive features include a set of crystal vials containing glowing sap and a wind chime made of hollowed twigs that tinkles in the breeze. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A wide‑angle sunrise shot from a hill overlooking a rustic village, the village of Alena, with thatched cottages clustered around a central square; the composition frames smoke rising from chimneys, a stone well at the center, and fields of golden wheat stretching beyond the rooftops. Architecture features timber‑framed houses with wattle‑and‑daub walls, sloping thatched roofs, and wooden shutters, while the square contains a market stall canopy and a modest wooden statue of a local patron. The layout is organized around a cobblestone road that winds through the village, connecting the homes to the surrounding farmlands and a small wooden bridge over a gentle stream. The atmosphere is warm and inviting, with the scent of fresh bread and the distant sound of a rooster crowing. Lighting is golden, with the early sun casting long, soft shadows, highlighting the warm hues of the thatch and the earthy tones of the walls. Textures emphasize the rough stone of the well, the soft thatch, the smooth cobblestones, and the crisp wheat swaying in the breeze. Distinctive features include a communal fire pit with a stone circle and a banner fluttering from the town hall bearing a simple emblem. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+      "A dynamic tracking shot following an ancient stone pathway that winds through the forest, known as the Keeper’s Paths; the composition follows the path’s curve, flanked by towering oaks whose trunks are marked with faded sigils, and occasional stone waymarkers shaped like stylized leaves. Architecture is subtle, consisting of weathered stone slabs set into the earth, low stone arches over small streams, and wooden railings carved with protective runes. The layout is a network of interlocking routes that rise and fall with the terrain, crossing over moss‑covered bridges and passing through hidden clearings. The atmosphere is solemn and protective, with a quiet hush broken only by the rustle of leaves and the distant call of a nightbird. Lighting is dappled, with shafts of sunlight piercing the canopy, creating patterns of light and shadow on the stone, and a faint, ethereal glow emanating from the runes at twilight. Textures showcase the smooth polished stone, the rough bark of the trees, the soft moss underfoot, and the glistening water of the streams. Distinctive features include a pair of ancient stone statues of guardians standing at a fork, each holding a lantern that never extinguishes. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution."
+    ]
+  }
+}

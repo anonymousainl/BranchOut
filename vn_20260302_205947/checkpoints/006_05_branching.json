@@ -1,0 +1,35 @@
+{
+  "max_branches": 3,
+  "branches": [
+    {
+      "id": "main",
+      "from_beat_id": null,
+      "from_scene_id": null,
+      "kind": "route",
+      "title": "Основной маршрут",
+      "description": "Каноничная история с хорошей, логичной развязкой.",
+      "ending_tone": "good",
+      "is_canonical": true
+    },
+    {
+      "id": "branch_01",
+      "from_beat_id": "beat_09",
+      "from_scene_id": null,
+      "kind": "ending",
+      "title": "Тёмный путь охотников",
+      "description": "Ален решает предать духа и передать его охотникам, получая их награду, но тем самым разрушает хрупкое равновесие между мирами, приводя к распространению тёмной магии.",
+      "ending_tone": "bad",
+      "is_canonical": false
+    },
+    {
+      "id": "branch_02",
+      "from_beat_id": "beat_15",
+      "from_scene_id": null,
+      "kind": "ending",
+      "title": "Сила Сирени",
+      "description": "Ален произносит имя «Сирень», уничтожая тёмный источник. Королевство освобождается, но дух теряет большую часть своей силы, а полученный импульс оставляет героя с тяжёлым внутренним бременем.",
+      "ending_tone": "bittersweet",
+      "is_canonical": false
+    }
+  ]
+}
