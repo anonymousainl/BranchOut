@@ -1,0 +1,14 @@
+{
+  "scene_id": "branch_02_scene_005",
+  "lines": [
+    {
+      "type": "narration",
+      "speaker": null,
+      "text": "The scene opens with a quiet street."
+    }
+  ],
+  "summary": "A brief overview of the scene.",
+  "branch_id": "branch_02",
+  "branch_order": 5,
+  "choices": []
+}
