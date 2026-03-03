@@ -1,0 +1,32 @@
+{
+  "world": {
+    "protective_barrier_active": true,
+    "ancient_trail_status": "fully_closed"
+  },
+  "characters": {
+    "Мирон": {
+      "location": "Хижина ученика у кромки леса",
+      "state": "resolved_dilemma",
+      "confidence": "raised",
+      "knowledge": [
+        "Тропа Шепчущих Корней",
+        "Эльмир"
+      ],
+      "role": "Хранитель Древних Троп"
+    },
+    "Иван": {
+      "location": "Окраина леса"
+    }
+  },
+  "plot_threads": {
+    "thread_01": "resolved",
+    "thread_02": "touched",
+    "thread_03": "touched",
+    "thread_04": "progressed",
+    "thread_05": "progressed",
+    "thread_06": "progressed",
+    "thread_07": "progressed",
+    "thread_08": "progressed",
+    "thread_09": "active"
+  }
+}

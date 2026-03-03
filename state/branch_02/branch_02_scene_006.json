@@ -1,0 +1,41 @@
+{
+  "world": {
+    "protective_barrier_active": true,
+    "ancient_trail_status": "partially_closed",
+    "protective_barrier_strength": "weakening"
+  },
+  "characters": {
+    "Мирон": {
+      "location": "Подножие Древа Имен",
+      "state": "decision_made",
+      "confidence": "raised",
+      "knowledge": [
+        "Тропа Шепчущих Корней",
+        "Эльмир"
+      ]
+    },
+    "Иван": {
+      "location": "Окраина леса"
+    },
+    "Дух Сыч": {
+      "location": "Подножие Древа Имен"
+    },
+    "Князь-скиталец Руд": {
+      "location": "Подножие Древа Имен"
+    },
+    "Охотница Нив": {
+      "location": "Подножие Древа Имен"
+    }
+  },
+  "plot_threads": {
+    "thread_01": "progressed",
+    "thread_02": "touched",
+    "thread_03": "touched",
+    "thread_04": "progressed",
+    "thread_05": "progressed",
+    "thread_06": "progressed",
+    "thread_07": "active",
+    "thread_08": "active",
+    "thread_09": "active"
+  }
+}

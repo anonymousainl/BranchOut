@@ -1,0 +1,24 @@
+{
+  "world": {},
+  "characters": {
+    "Мирон": {
+      "location": "Лиминальная поляна с полупрозрачным светом",
+      "state": "resolved_dilemma",
+      "confidence": "raised"
+    },
+    "Иван": {
+      "location": "Окраина леса"
+    }
+  },
+  "plot_threads": {
+    "thread_01": "active",
+    "thread_02": "touched",
+    "thread_03": "touched",
+    "thread_04": "active",
+    "thread_05": "active",
+    "thread_06": "active",
+    "thread_07": "active",
+    "thread_08": "active",
+    "thread_09": "active"
+  }
+}

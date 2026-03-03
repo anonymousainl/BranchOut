@@ -1,0 +1,38 @@
+{
+  "world": {
+    "protective_barrier_active": true,
+    "ancient_trail_status": "partially_closed",
+    "protective_barrier_strength": "reinforced"
+  },
+  "characters": {
+    "Мирон": {
+      "location": "Лагерь охотников в тенях",
+      "state": "resolved_dilemma",
+      "confidence": "raised",
+      "knowledge": [
+        "Тропа Шепчущих Корней",
+        "Эльмир"
+      ]
+    },
+    "Иван": {
+      "location": "Окраина леса"
+    },
+    "Дух Сыч": {
+      "location": "Лагерь охотников в тенях"
+    },
+    "Князь-скиталец Руд": {
+      "location": "Лагерь охотников в тенях"
+    }
+  },
+  "plot_threads": {
+    "thread_01": "progressed",
+    "thread_02": "touched",
+    "thread_03": "touched",
+    "thread_04": "progressed",
+    "thread_05": "progressed",
+    "thread_06": "progressed",
+    "thread_07": "active",
+    "thread_08": "active",
+    "thread_09": "active"
+  }
+}

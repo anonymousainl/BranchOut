@@ -1,0 +1,34 @@
+{
+  "world": {
+    "protective_barrier_active": true,
+    "ancient_trail_status": "partially_closed"
+  },
+  "characters": {
+    "Мирон": {
+      "location": "Лиминальная поляна с полупрозрачным светом",
+      "state": "resolved_dilemma",
+      "confidence": "raised",
+      "knowledge": [
+        "Тропа Шепчущих Корней",
+        "Эльмир"
+      ]
+    },
+    "Иван": {
+      "location": "Окраина леса"
+    },
+    "Дух Сыч": {
+      "location": "Лиминальная поляна с полупрозрачным светом"
+    }
+  },
+  "plot_threads": {
+    "thread_01": "progressed",
+    "thread_02": "touched",
+    "thread_03": "touched",
+    "thread_04": "progressed",
+    "thread_05": "progressed",
+    "thread_06": "progressed",
+    "thread_07": "active",
+    "thread_08": "active",
+    "thread_09": "active"
+  }
+}
