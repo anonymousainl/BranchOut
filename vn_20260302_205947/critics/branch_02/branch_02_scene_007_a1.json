@@ -1,0 +1,45 @@
+{
+  "attempt": 1,
+  "best_score": 104.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "protective_barrier_strength": "weakening",
+        "ancient_trail_status": "partially_closed"
+      },
+      "characters": {
+        "Охотница Нив": {
+          "location": "Подножие Древа Имен"
+        },
+        "Мирон": {
+          "location": "Подножие Древа Имен"
+        },
+        "Дух Сыч": {
+          "location": "Подножие Древа Имен"
+        },
+        "Князь-скиталец Руд": {
+          "location": "Подножие Древа Имен"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требуется, сцена начинается непосредственно в текущей локации."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

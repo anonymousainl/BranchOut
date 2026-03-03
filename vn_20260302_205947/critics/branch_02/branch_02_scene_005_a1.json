@@ -1,0 +1,47 @@
+{
+  "attempt": 1,
+  "best_score": 26.6,
+  "best_script_lines": 46,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "ancient_trail_status": "partially_closed",
+        "protective_barrier_strength": "reinforced"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Перекрёсток сказок"
+        },
+        "Дух Сыч": {
+          "location": "Перекрёсток сказок"
+        },
+        "Князь-скиталец Руд": {
+          "location": "Перекрёсток сказок"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "progressed"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует канону Перекрёстка сказок: арка, три пути, плавающий фонарь, описанные ландшафты и атмосфера."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с описания отдаления от лагеря охотников и приближения к Перекрёстку сказок, что удовлетворяет требованию перехода."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

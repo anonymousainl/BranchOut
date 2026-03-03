@@ -1,0 +1,39 @@
+{
+  "attempt": 3,
+  "best_score": -3.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Текст содержит ссылки на Проклятое королевство, что противоречит локации Окраина леса и описанию location_canon.",
+      "Отсутствует явное описание перехода/прибытия к новой локации, несмотря на требование transition_required."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Окраина леса"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": true,
+      "recommended_action": "edit_text",
+      "suggested_location": "Окраина леса",
+      "details": "Текст упоминает Проклятое королевство и искажённые деревья, что не соответствует канону локации (открытая луга и густой лес без построек)."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": true,
+      "details": "Начало сцены не содержит чёткого описания прибытия из предыдущей локации к Окраине леса; требуется добавить переходный эпизод."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation).",
+      "Critic reports location mismatch (recommended_action=edit_text); strict location gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

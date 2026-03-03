@@ -1,0 +1,51 @@
+{
+  "attempt": 1,
+  "best_score": -3.2,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Сцена слишком длинная для заявленного среднего объёма; присутствует избыточное количество повторяющихся мыслей и описаний.",
+      "Отсутствуют обновления состояния персонажей и мира, отражающие последствия выбора (закрытие троп, укрепление барьера, новое местоположение Мирона)."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {
+        "protective_barrier_strength": "strengthened",
+        "ancient_trail_status": "closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "resolved"
+        },
+        "Дух Сыч": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "merged"
+        },
+        "Князь-скиталец Руд": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "supportive"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует каноническому описанию Дуба‑Вечного и его особенностям."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены описывает подъем по корням от подножия к полянке у Дуба‑Вечного, что удовлетворяет требованию перехода."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation).",
+      "Location is not enterable / scale=object but text implies interior (walls/rooms/entering inside)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

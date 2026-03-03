@@ -1,0 +1,35 @@
+{
+  "attempt": 3,
+  "best_score": -3.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Текст описывает внутреннее помещение (мшистый пол, рунические лампы, каменные алтари), что запрещено при scale=object.",
+      "Некоторые детали (например, «каменные алтари», «мшистый пол») противоречат канону локации, где вход только через ствол и нет обычных стен/потолка."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": true,
+      "recommended_action": "edit_text",
+      "suggested_location": null,
+      "details": "Необходимо убрать описания интерьера, сосредоточившись на внешних и атмосферных элементах дуба согласно канону."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, поэтому отсутствие вступительного описания перемещения допустимо."
+    },
+    "_hard_issues": [
+      "Location is not enterable / scale=object but text implies interior (walls/rooms/entering inside).",
+      "Critic reports location mismatch (recommended_action=edit_text); strict location gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

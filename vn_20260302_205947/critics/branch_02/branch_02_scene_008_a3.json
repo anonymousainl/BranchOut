@@ -1,0 +1,57 @@
+{
+  "attempt": 3,
+  "best_score": 104.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "protective_barrier_strength": "stable",
+        "ancient_trail_status": "closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "post_ritual",
+          "confidence": "resolved",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Эльмир",
+            "имя Дуб‑Вечный"
+          ]
+        },
+        "Дух Сыч": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "saved",
+          "emotion": "peaceful"
+        },
+        "Князь-скиталец Руд": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "watchful"
+        }
+      },
+      "plot_threads": {
+        "thread_07": "resolved",
+        "thread_08": "progressed",
+        "thread_06": "progressed",
+        "thread_04": "progressed"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует описанию локации и её affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены описывает подъем по тропе от Подножия Древа Имен к Дубу‑Вечному, удовлетворяя требованию перехода."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

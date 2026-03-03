@@ -1,0 +1,34 @@
+{
+  "attempt": 2,
+  "best_score": 14.7,
+  "best_script_lines": 47,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "В начале сцены упоминается «Троица», хотя присутствуют четыре персонажа (Мирон, Дух Сыч, Руд и Нив).",
+      "Небольшая стилистическая повторяемость: несколько раз описывается отступление Нив."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её ограничениям."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требуется, сцена начинается уже на месте."
+    },
+    "_hard_issues": [
+      "Location is not enterable / scale=object but text implies interior (walls/rooms/entering inside)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "best_score": 101.69999999999999,
+  "best_script_lines": 41,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Деревня Алена (домашняя деревня)"
+        },
+        "Травница Яра": {
+          "location": "Деревня Алена (домашняя деревня)"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует описанию локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "В начале сцены присутствует описание пути из Троп хранителя в деревню, удовлетворяя требованию перехода."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

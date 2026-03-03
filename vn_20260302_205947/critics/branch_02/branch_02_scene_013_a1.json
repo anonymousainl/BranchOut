@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "best_score": 104.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её аффордэнсам; нет противоречий."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, поэтому отсутствие вступительного перехода допустимо."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

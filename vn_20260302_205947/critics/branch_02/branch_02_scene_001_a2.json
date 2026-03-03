@@ -1,0 +1,35 @@
+{
+  "attempt": 2,
+  "best_score": 26.6,
+  "best_script_lines": 46,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Окраина леса"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "В начале сцены присутствует описание перемещения от предыдущей локации."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

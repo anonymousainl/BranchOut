@@ -1,0 +1,61 @@
+{
+  "attempt": 1,
+  "best_score": 25.799999999999997,
+  "best_script_lines": 44,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "protective_barrier_strength": "critical",
+        "ancient_trail_status": "partially_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Подножие Древа Имен",
+          "state": "burdened",
+          "confidence": "raised"
+        },
+        "Дух Сыч": {
+          "location": null,
+          "state": "lost",
+          "alive": false
+        },
+        "Князь-скиталец Руд": {
+          "location": "Подножие Древа Имен",
+          "state": "supportive"
+        },
+        "Охотница Нив": {
+          "location": "Подножие Древа Имен",
+          "state": "aggressive"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "resolved",
+        "thread_04": "resolved",
+        "thread_05": "progressed",
+        "thread_07": "active",
+        "thread_08": "active",
+        "thread_09": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию Подножия Древа Имен, не противоречит канону и не описывает закрытое помещение."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Первый абзац явно описывает спуск с Перекрёстка сказок к Подножию Древа Имен, обеспечивая плавный переход."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}
