@@ -1,0 +1,30 @@
+{
+  "attempt": 3,
+  "best_score": 35.0,
+  "best_script_lines": 40,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Список present_characters в scene_contract не соответствует персонажам, появляющимся в сцене (в тексте присутствуют Охотница Нив и Ален, но они не указаны)."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены содержит описание выхода из хижины и пути к лагерю, удовлетворяя требованию transition_required."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": true
+  }
+}

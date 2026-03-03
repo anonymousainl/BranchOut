@@ -1,0 +1,35 @@
+{
+  "attempt": 2,
+  "best_score": 32.9,
+  "best_script_lines": 49,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Сцена утверждает, что Мирон физически находится внутри хижины, что запрещено микропланом (запрещено утверждать, что Мирон физически находится в хижине).",
+      "В story_state персонаж Мирон всё ещё находится в \"Лагерь охотников в тенях\", тогда как текст описывает его в хижине, требуется обновление локации."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Хижина ученика у кромки леса"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с описания пути от лагеря к хижине, что удовлетворяет требованию transition_required."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": true
+  }
+}

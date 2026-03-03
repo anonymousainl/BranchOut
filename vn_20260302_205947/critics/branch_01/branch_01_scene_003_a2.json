@@ -1,0 +1,40 @@
+{
+  "attempt": 2,
+  "best_score": -10.899999999999999,
+  "best_script_lines": 43,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Неправильный говорящий в диалоге: Мирон произносит реплику, принадлежащую изгой‑духу.",
+      "Сцена перемещает Мирона в хижину, нарушая microplan, где он должен оставаться в лагере охотников в тенях.",
+      "Текст противоречит текущему местоположению персонажа в story_state."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Лагерь охотников в тенях"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": true,
+      "recommended_action": "edit_text",
+      "suggested_location": "Лагерь охотников в тенях",
+      "details": "Сцена описывает прибытие в хижину, хотя согласно story_state и microplan персонаж находится в лагере охотников."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены содержит описание выхода из лагеря и пути к хижине, что удовлетворяет требованию transition_required."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration.",
+      "Critic reports location mismatch (recommended_action=edit_text); strict location gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "attempt": 2,
+  "best_score": 12.399999999999999,
+  "best_script_lines": 42,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Большая часть диалогов отведена только Мирону, отсутствует реплика Духа Сыча, хотя сюжет предполагает его благодарность.",
+      "Некорректные атрибуты speaker в диалогах: строки, где Сыч говорит, помечены как \"Мирон\", что нарушает консистентность персонажей."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию хижины из location_canon и location_affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, начало сцены адекватно помещено в текущую локацию."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

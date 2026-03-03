@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "best_score": 14.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Отсутствует реплика Духа Сыча – в сцене дух должен говорить, а диалоги полностью от имени Мирона",
+      "Большое количество внутренних монологов делает сцену тяжёлой и снижает динамику"
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Дух Сыч": {
+          "state": "fully_healed"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию хижины и её интерьеру"
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требуется, сцена начинается внутри хижины без указания перемещения"
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

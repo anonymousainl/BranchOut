@@ -1,0 +1,33 @@
+{
+  "attempt": 3,
+  "best_score": 105.0,
+  "best_script_lines": 50,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Хижина ученика у кромки леса",
+          "choice_made": "Липа"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её атрибутам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "В начале сцены присутствует переход от лагеря охотников к хижине."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

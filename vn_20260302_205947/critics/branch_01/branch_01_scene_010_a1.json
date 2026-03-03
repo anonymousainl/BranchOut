@@ -1,0 +1,34 @@
+{
+  "attempt": 1,
+  "best_score": 13.100000000000001,
+  "best_script_lines": 43,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Текст описывает события у подножия Древа Имен, что противоречит локации «Хижина ученика у кромки леса» (интерьер).",
+      "Сцена смешивает интерьер хижины и внешний мир, нарушая согласованность с location_affordances (indoor, building)."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": true,
+      "recommended_action": "edit_text",
+      "suggested_location": null,
+      "details": "Сцена должна оставаться внутри хижины или изменить локацию на «Подножие Древа Имен», чтобы описываемые действия соответствовали месту."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, начало сцены соответствует текущей локации, дополнительный переход не требуется."
+    },
+    "_hard_issues": [
+      "Critic reports location mismatch (recommended_action=edit_text); strict location gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

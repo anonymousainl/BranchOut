@@ -1,0 +1,46 @@
+{
+  "attempt": 1,
+  "best_score": 15.0,
+  "best_script_lines": 50,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Сцена противоречит microplan: в microplan указано, что Мирон находится в лагере охотников, но текст помещает его в хижину у кромки леса.",
+      "Story_state не обновлён: после начала сцены локация персонажа должна измениться с \"Лагерь охотников в тенях\" на \"Хижина ученика у кромки леса\"."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Хижина ученика у кромки леса",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней"
+          ]
+        }
+      },
+      "plot_threads": {
+        "thread_05": "active",
+        "thread_06": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации из location_canon."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены содержит описание выхода из лагеря и пути к хижине, удовлетворяя требование transition_required."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

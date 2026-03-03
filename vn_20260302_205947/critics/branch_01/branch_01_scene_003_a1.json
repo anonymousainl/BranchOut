@@ -1,0 +1,50 @@
+{
+  "attempt": 1,
+  "best_score": 102.4,
+  "best_script_lines": 42,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "portal_active": true,
+        "portal_type": "Древняя тропа",
+        "guardian_spirit_healed": "partial"
+      },
+      "characters": {
+        "Мирон": {
+          "confidence": "raised",
+          "state": "resolved_dilemma",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Древняя тропа"
+          ]
+        },
+        "Дух Сыч": {
+          "status": "partially_healed",
+          "location": "Лагерь охотников в тенях"
+        }
+      },
+      "plot_threads": {
+        "thread_05": "touched",
+        "thread_06": "touched",
+        "thread_02": "touched",
+        "thread_03": "touched"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию лагеря, не нарушает ограничения enterable/scale."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, сцена начинается в текущей локации без необходимости перемещения."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

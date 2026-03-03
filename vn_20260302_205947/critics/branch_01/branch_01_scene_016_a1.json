@@ -1,0 +1,31 @@
+{
+  "attempt": 1,
+  "best_score": 32.9,
+  "best_script_lines": 49,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "В контракте и резюме сцены упоминается имя \"Ален\", хотя главный персонаж в сцене — Мирон.",
+      "Избыточные повторения мыслей и диалогов делают сцену тяжеловесной, что снижает динамику."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "edit_text",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию хижины, но требуется исправить несоответствие имени персонажа."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, сцена начинается внутри хижины без необходимости телепорта."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": true
+  }
+}

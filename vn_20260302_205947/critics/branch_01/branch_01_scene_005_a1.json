@@ -1,0 +1,34 @@
+{
+  "attempt": 1,
+  "best_score": 11.7,
+  "best_script_lines": 41,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "present_characters list missing Охотница Нив, who has dialogue in the scene",
+      "present_characters list missing Ален, who is observed interacting in the scene"
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Scene description aligns with location_canon and affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Opening line provides clear travel from previous location."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

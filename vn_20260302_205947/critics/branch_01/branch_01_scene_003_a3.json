@@ -1,0 +1,40 @@
+{
+  "attempt": 3,
+  "best_score": -40.3,
+  "best_script_lines": 1,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Сцена объявлена в локации «Хижина ученика у кромки леса», но микроплан и текущий стейт требуют, чтобы Мирон оставался в «Лагеря охотников в тенях».",
+      "Требуется переход (transition_required = true), однако в начале сцены отсутствует описание прибытия, пути или смены окружения.",
+      "Сценарий почти пуст (единственная строка «...»), поэтому невозможно проверить соответствие описания локации и отсутствие телепортации."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Лагерь охотников в тенях"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": true,
+      "recommended_action": "change_location",
+      "suggested_location": "Лагерь охотников в тенях",
+      "details": "Контракт указывает хижину, но микроплан и текущий стейт требуют лагерь; перемещение персонажа в хижину противоречит требованиям."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": true,
+      "details": "Отсутствует описание прибытия/пути в начале сцены, необходима сцена‑переход, чтобы удовлетворить transition_required."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration.",
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}
