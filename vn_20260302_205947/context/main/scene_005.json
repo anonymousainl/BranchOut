@@ -1,0 +1,79 @@
+{
+  "scene_contract": {
+    "id": "scene_005",
+    "beat_id": "beat_05",
+    "location": "Окраина леса",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Он отправляется в лес, встречает скитальца‑следопыта Ивана, который рассказывает о легендах Древних Троп и советует подготовиться к путешествию.",
+    "branch_id": "main",
+    "branch_order": 5
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Колебание сердца\nАлен размышляет, стоит ли следовать зову: страх перед неизвестным против жажды открыть новые тайны.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Путь к тропе\nОн отправляется в лес, встречает скитальца‑следопыта Ивана, который рассказывает о легендах Древних Троп и советует подготовиться к путешествию.\n\n=== CURRENT SCENE PLAN ===\nLocation: Окраина леса\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Он отправляется в лес, встречает скитальца‑следопыта Ивана, который рассказывает о легендах Древних Троп и советует подготовиться к путешествию.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Хижина ученика у кромки леса\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Хижина ученика у кромки леса, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Окраина леса': Хижина ученика у кромки леса, Светящаяся полоса корней – Древняя тропа\n\n=== CURRENT LOCATION CANON (BG) ===\n[Окраина леса] A sweeping aerial view from a high angle, centered on the forest's outer rim where open meadow meets dense woodland; the composition balances a golden‑lit clearing with a sea of dark, ancient trees, a meandering brook glinting in the distance, and a faint trail of fallen leaves. Architecture is absent, focusing on natural layout: rolling hills, scattered birch groves, and a thin veil of fog that rolls off the meadow. The atmosphere feels transitional, with cool breezes stirring the grass and a gentle sunrise casting a warm amber glow that gradually deepens into cool shadows among the trees. Lighting highlights the contrast between sun‑kissed grass and the deepening shade of the forest, creating a subtle rim light on the treetops. Textures showcase the soft, dewy grass, the rough bark of towering oaks, the smooth water of the brook, and the delicate mist. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Переход от открытой луга к густому лесу, без построек; травы, берёзовые рощи, ручей, утренний свет и лёгкий туман.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт своё дар слышать имена деревьев и получает намёк на Тропу Тихих Корней, ощущая присутствие изгой‑духа.\n- Под наставлением Марии Мирон практикует магию имён: исцеляет траву именем «Липа», ускоряет рост семени «Сосна», создаёт защитный барьер «Эльмир», размышляя о моральном выборе и балансе магии, пока в хижине тихо шепчут Древние Тропы.\n- Мирон выходит из хижины на рассвете, слышит из земли зов Древних Троп, распознаёт имя «Древняя Тропа», вспоминает двойственную природу магии имён, видит светящийся след корней и решает следовать ему, оставляя путь в глубь леса открытым.\n- Мирон слушает зов Древних Троп, вспоминает Дуб‑Вечный и взвешивает страх перед неизвестным против жажды открытий, пока держит моральный выбор между силой и исцелением.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [thought] Мирон: Пока я стою здесь, я держу баланс между силой и исцелением, между страхом и открытием.\n> [narration] Тишина в хижине сохраняет меня в этом моменте, пока я решаю, какой путь выбрать дальше.\n> [thought] Мирон: Мирон (Ален): Я не спешу, я слушаю, я чувствую, я выбираю, когда буду готов.",
+    "rag_context": {
+      "global_facts": "Мрачное средневековое королевство, покрытое древними лесами, содержит сеть Древних Троп — живых артерий, соединяющих сказочные миры. Главный герой — юный ученик травницы Мирон, обладающий даром слышать имена деревьев и управлять магией имён (исцелять, ускорять рост, наносить разрушения). В лесу обитают изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его. Выборы героя влияют на судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Троп.",
+      "current_beat_facts": "Beat 05 («Путь к тропе») – низкое напряжение, цель: отправиться в лес, встретить скитальца‑следопыта Ивана, получить от него легенды о Древних Тропах и советы по подготовке к путешествию. Это переходный шаг к активному путешествию по Тропе.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, тонко чувствующий запахи и имена деревьев. Внешность: худощавый подросток в коричневой тунике, с листовым серебряным кулоном, свободной, но решительной осанкой, глаза янтарные, лицо с веснушками, выражение задумчивое, но полное решимости. Эмоциональное состояние: размышляет о балансе между силой и исцелением, между страхом и жаждой открытий, готовится к путешествию, но ещё не полностью уверен в своих действиях."
+      },
+      "recent_events": "1) Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт о своём даре и намёк на Тропу Тихих Корней, ощущает присутствие изгой‑духа. 2) Под руководством наставницы Марии он практикует магию имён (исцеление «Липа», ускоренный рост «Сосна», барьер «Эльмир»), размышляя о моральном выборе. 3) На рассвете он выходит из хижины, слышит зов Древних Троп, распознаёт имя «Древняя Тропа», видит светящийся след корней и решает следовать ему. 4) Он взвешивает страх перед неизвестным против жажды открытий, удерживая баланс между силой и исцелением. 5) Переход от хижины к окраине леса: Мирон идёт по тропинке, ощущая утренний ветер и первые лучи солнца, готовясь к встрече с Ивана.",
+      "open_threads": [
+        "Тайна Древних Троп – необходимость узнать названия и легенды, чтобы пройти дальше.",
+        "Подготовка к путешествию – какие ресурсы и знания нужны, как обеспечить безопасность.",
+        "Судьба изгой‑духа – будет ли он спасён, как его судьба повлияет на баланс магии.",
+        "Охотники – могут ли они появиться и создать конфликт.",
+        "Моральный выбор между использованием магии имён для силы или исцеления.",
+        "Влияние наставницы Марии и следопыта Ивана на решения Мирона."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон выходит из хижины на рассвете, ощущая прохладный туман на окраине леса.",
+        "2) Он замечает одинокую фигуру — скитальца‑следопыта Ивана, опирающегося на посох, скрывающегося среди кустов.",
+        "3) Иван приветствует Мирона, представляется как искатель забытых троп и интересуется, зачем юный ученик идёт в лес в одиночку.",
+        "4) Мирон рассказывает о своём даре слышать имена деревьев и о желании найти Древнюю Тропу, чтобы понять её силу.",
+        "5) Иван делится фрагментом легенды: Древняя Тропа — живой артерий, открывающийся лишь при произнесении её истинного имени, но неправильное использование может нарушить баланс магии имён.",
+        "6) Он советует подготовиться: собрать лечебные травы, привязать к себе веточку дуба и внимательно слушать шёпот деревьев, чтобы они указывали путь.",
+        "7) Мирон вспоминает двойственную природу магии имён — она может исцелять или разрушать, и клянётся действовать ответственно.",
+        "8) Иван указывает на едва заметный светящийся след корней, дарит простой оберег из листьев и желает Мирону безопасного пути, открывая дорогу к Древней Тропе."
+      ],
+      "must_hold_true": [
+        "Мирон находится на окраине леса, недалеко от своей хижины у кромки леса.",
+        "Магия имён деревьев существует и обладает двойственной природой (исцеление и разрушение).",
+        "Древние Тропы открываются только при знании их истинных названий."
+      ],
+      "must_touch_threads": [
+        "thread_01",
+        "thread_02"
+      ],
+      "required_mentions": [
+        "Иван — скиталец‑следопыт, который рассказывает о Древних Тропах",
+        "легенда о Древней Тропе как живой артерии",
+        "двойственная природа магии имён (исцеление и разрушение)",
+        "необходимость подготовки (травы, веточка дуба, слушание деревьев)",
+        "светящийся след корней, указывающий путь"
+      ],
+      "forbidden": [
+        "Мирон уже находится глубоко в лесу или покинул окраину до встречи с Иваном",
+        "использование магии имён без морального выбора или без упоминания её двойственной природы",
+        "убийство или поимка изгой‑духа в этой сцене",
+        "раскрытие полного имени Древней Тропы до момента, когда герой будет готов её произнести"
+      ]
+    },
+    "location_canon": "A sweeping aerial view from a high angle, centered on the forest's outer rim where open meadow meets dense woodland; the composition balances a golden‑lit clearing with a sea of dark, ancient trees, a meandering brook glinting in the distance, and a faint trail of fallen leaves. Architecture is absent, focusing on natural layout: rolling hills, scattered birch groves, and a thin veil of fog that rolls off the meadow. The atmosphere feels transitional, with cool breezes stirring the grass and a gentle sunrise casting a warm amber glow that gradually deepens into cool shadows among the trees. Lighting highlights the contrast between sun‑kissed grass and the deepening shade of the forest, creating a subtle rim light on the treetops. Textures showcase the soft, dewy grass, the rough bark of towering oaks, the smooth water of the brook, and the delicate mist. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Переход от открытой луга к густому лесу, без построек; травы, берёзовые рощи, ручей, утренний свет и лёгкий туман."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Хижина ученика у кромки леса",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

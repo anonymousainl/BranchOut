@@ -1,0 +1,91 @@
+{
+  "scene_contract": {
+    "id": "scene_017",
+    "beat_id": "beat_17",
+    "location": "Дуб‑Вечный – Древо Имен",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Дух благодарит Алена, его сила частично восстанавливается, и он предлагает вести к Древу Имен — сердцу всех троп.",
+    "branch_id": "main",
+    "branch_order": 17
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Последствия выбора\nЕсли он выбирает силу, королевство освобождается, но магия духа ослабевает; если исцеление — жители спасаются, а дух получает часть своей утраченной энергии.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Укрепление духа\nДух благодарит Алена, его сила частично восстанавливается, и он предлагает вести к Древу Имен — сердцу всех троп.\n\n=== CURRENT SCENE PLAN ===\nLocation: Дуб‑Вечный – Древо Имен\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Дух благодарит Алена, его сила частично восстанавливается, и он предлагает вести к Древу Имен — сердцу всех троп.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Проклятое королевство искажённых имён деревьев\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Проклятое королевство искажённых имён деревьев, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Дуб‑Вечный – Древо Имен': Подножие Древа Имен\n\n=== CURRENT LOCATION CANON (BG) ===\n[Дуб‑Вечный – Древо Имен] A majestic upward‑looking shot from the forest floor toward a colossal ancient oak, the Eternal Oak, whose massive trunk dominates the frame; the composition centers the tree’s sprawling canopy, interlaced with glowing runes and hanging lanterns, while roots spread like veins across the ground. Architecture is natural yet sacred: a hollowed trunk serving as a vaulted hall, branches forming natural arches, and a ring of stone altars encircling the base. The layout reveals concentric circles of moss‑covered stones, each etched with names of the forest, leading up to a central platform where the tree’s heart glows with inner light. The atmosphere is reverent and timeless, with a gentle breeze rustling leaves and a faint hum of ancient magic. Lighting is radiant, with shafts of golden sunlight piercing the canopy, illuminating the runes in a soft amber glow, and creating dappled patterns on the forest floor. Textures emphasize the rough bark, the smooth polished stone of the altars, the velvety moss, and the delicate glow of fireflies. Distinctive features include a crown of crystal blossoms that pulse with light and a cascade of silver vines that drape from the highest branches. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"mixed\", \"enterable\": true, \"scale\": \"object\", \"notes\": \"Колоссальный дуб с полой полостью, служащей залом, каменными алтарями и светящими рунами; вход только через ствол, без обычных стен и потолка.\"}\nIMPORTANT: This location is NOT a walkable interior. Scene must be outside; no rooms/walls/ceilings/entering inside.\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон покидает светящуюся полосу корней и приходит на лиминальную поляну, где встречает раненого изгой‑духа. Произнеся имя «Серебряный дуб», он частично исцеляет дух, разрывая светящиеся цепи, и получает от него знание о скрытой Тропе Шепчущих Корней. Он принимает моральный выбор помочь духу, несмотря на угрозу охотников, и отправляется в путь, сохраняя уважение к двойственной природе магии имён.\n- Мирон, следуя шепоту Тропы Шепчущих Корней, приближается к лагерю охотников, где кристаллический кристалл приводит трёх охотников к попытке поймать изгой‑духа. Он делает моральный выбор, частично успокаивая дух и направляя его к спасительной тропе, пока охотники продолжают погоню.\n- Мирон слышит мольбу духа Сыча и крики охотников, стоя перед выбором: спасти полупрозрачного существа или отдать его ради собственной безопасности. Он решает использовать магию имён, освобождая дух и следуя за светящейся тропой, оставляя охотников позади.\n- Мирон выходит из лагеря охотников, приходит на лиминальную поляну, слышит крик изгой‑духа и, приняв моральный выбор, произносит имя «Эльмир», создавая защитный барьер из корней, который спасает дух и частично закрывает Древние Тропы, оставляя героя перед новой дилеммой.\n- Мирон и изгой‑дух убегают от охотников, используя активный барьер «Эльмир» и новые шепчущиеся имена, чтобы пробраться к Тропе Шепчущих Корней; охотники теряют след, а Древняя Тропа остаётся частично закрытой, открывая путь в глубину.\n- Мирон достигает Перекрёстка сказок, открывает путь «Тропа Шепчущих Корней», узнаёт о двойственной природе магии имён и, произнеся «Эльмир» с намерением исцеления, сохраняет активный защищающий барьер и частично закрытую Древнюю тропу, готовясь к дальнейшему выбору.\n- Мирон стоит под аркой Перекрёстка сказок, размышляя о двойственной природе магии имён. Он взвешивает возможность разрушения через имя «Сирень» и исцеления через «Липа», проверяя силу на кусте, пока ощущает активный защитный барьер и судьбу изгой‑духа. Сцена заканчивается открытым вопросом о том, какой путь выберет герой.\n- Мирон выходит из Перекрёстка сказок на Лиминальную поляну, где полупрозрачный свет раскрывает искажённые имена деревьев. В проклятом королевстве жители страдают от болезни, вызванной этими искажёнными именами. Используя дар слышать имена и защитный барьер «Эльмир», он пробует исцелить (ценой ослабления барьера) и разрушить (смещая баланс магии). Его действия частично облегчают страдания, а Древняя Тропа остаётся частично закрытой, подтверждая двойственную природу магии имён.\n- Мирон, окружённый разрушенным городом и защитным барьером «Эльмир», взвешивает два имени — «Сирень» и «Липа» — между разрушением темного источника и исцелением земли и людей, пока изгоненный дух Сыч ждёт его решения.\n- Мирон выбирает исцеление, используя имя «Липа», спасает жителей и восстанавливает часть силы изгоя‑духа, при этом защищающий барьер «Эльмир» остаётся активным, а Древняя Тропа остаётся частично закрытой, меняя баланс магии имён.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Он делает шаг вперёд, ботинки скрипят по треснувшему камню, готовый идти по новому пути.\n> [dialogue] Мирон: Эльмир, держи меня.\n> [narration] Последняя молния разрезает небо, бросая зелёный всплеск над проклятым королевством, и сцена медленно гаснет.",
+    "rag_context": {
+      "global_facts": "Средневековое королевство, покрытое древними лесами, содержит сеть Древних Троп, соединяющих миры сказок. Магия имён деревьев позволяет исцелять и управлять природой, но требует морального выбора. В лесу обитает изгой‑дух, чья сила восстанавливается, и охотники, желающие его поймать. На данный момент у Мирона активен защитный барьер «Эльмир», Древняя Тропа частично закрыта, а дух частично исцелен.",
+      "current_beat_facts": "Бит 17 – «Укрепление духа». Дух благодарит Мирона, его сила частично восстановлена и он предлагает вести к Дубу‑Вечному – Древу Имен, сердцу всех троп. Цель – продолжить сюжет (sequel) с низким уровнем напряжения, подготовить героя к следующему выбору.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, подросток с даром слышать имена деревьев. После исцеления духа его уверенность возросла, он разрешил моральную дилемму, знает Тропу Шепчущих Корней и имя «Эльмир». Находится в Проклятом королевстве искажённых имён деревьев, готовится к переходу к Дубу‑Вечному. Настроение – решительный, сосредоточенный."
+      },
+      "recent_events": "1) Мирон исцелил изгой‑духа, назвав «Серебряный дуб», получив знание о Тропе Шепчущих Корней. 2) Он прошёл мимо лагеря охотников, частично успокоив дух и направив его к спасительной тропе. 3) Спасая дух Сыч, Мирон использовал магию имён, оставив охотников позади. 4) На лиминальной поляне он создал защитный барьер «Эльмир», спасая дух и частично закрывая Древние Тропы. 5) С барьером он пробрался к Перекрёстку сказок, открыл Тропу Шепчущих Корней и укрепил барьер. 6) Размышляя над именами «Сирень» и «Липа», он выбрал исцеление «Липа», спасая жителей, восстановив часть силы духа и оставив Тропу частично закрытой.",
+      "open_threads": [
+        "thread_03 – судьба и дальнейшее укрепление изгой‑духа",
+        "thread_07 – решение о запечатывании Древних Троп",
+        "thread_08 – выбор между возвращением домой и ролью хранителя Троп",
+        "thread_05 – продолжающийся конфликт сила vs исцеление",
+        "thread_01 – развитие дарования имен деревьев"
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон стоит у Дуб‑Вечного, ощущая вибрацию древних корней; мерцающий свет подтверждает, что защитный барьер активен.",
+        "2) Дух, частично исцелённый, появляется в виде светящегося ореола и благодарит Мирона за спасение, его раны заживают под влиянием имени «Эльмир».",
+        "3) Дух объясняет, что Древо Имен — сердце всех Древних Троп, где хранятся истинные имена путей, и только тот, кто знает их, может пройти дальше.",
+        "4) Он предлагает вести Мирона к Древу, предупреждая, что древняя тропа сейчас частично закрыта и путь будет полон опасностей.",
+        "5) Мирон, чувствуя рост уверенности, вспоминает своё знание Тропы Шепчущих Корней и произносит имя «Эльмир», усиливая защитный барьер вокруг них.",
+        "6) Дух демонстрирует, как имя дерева открывает скрытый проход в корнях Дуб‑Вечного, раскрывая часть Древней Тропы.",
+        "7) В процессе они слышат отголоски будущих решений: дух намекает, что выбор между сохранением троп и их запечатыванием будет стоять перед Мироном (thread_07).",
+        "8) Сцена заканчивается тем, что они отправляются в путь к Древу Имен, а в сердце Мирона зарождается мысль о своей будущей роли хранителя (thread_08)."
+      ],
+      "must_hold_true": [
+        "protective_barrier_active == true",
+        "ancient_trail_status == \"partially_closed\"",
+        "Мирон.location == \"Дуб‑Вечный – Древо Имен\"",
+        "Мирон.state == \"resolved_dilemma\"",
+        "Мирон.confidence == \"raised\"",
+        "Мирон.knowledge включает \"Тропа Шепчущих Корней\" и \"Эльмир\"",
+        "Дух частично исцелен и благодарен"
+      ],
+      "must_touch_threads": [
+        "thread_01",
+        "thread_03",
+        "thread_07",
+        "thread_08"
+      ],
+      "required_mentions": [
+        "Дуб‑Вечный",
+        "Древо Имен",
+        "Эльмир",
+        "защитный барьер",
+        "частично закрытая тропа",
+        "благодарность духа",
+        "предложение вести к Древу",
+        "уверенность Мирона",
+        "Тропа Шепчущих Корней",
+        "выбор запечатывания троп",
+        "роль хранителя"
+      ],
+      "forbidden": [
+        "вводить новых персонажей в эту сцену",
+        "изменять статус защитного барьера на неактивный",
+        "полностью закрывать Древние Тропы сейчас",
+        "нарушать POV (действовать от лица другого персонажа)",
+        "противоречить правилам мира (например, использовать магию без имени)"
+      ]
+    },
+    "location_canon": "A majestic upward‑looking shot from the forest floor toward a colossal ancient oak, the Eternal Oak, whose massive trunk dominates the frame; the composition centers the tree’s sprawling canopy, interlaced with glowing runes and hanging lanterns, while roots spread like veins across the ground. Architecture is natural yet sacred: a hollowed trunk serving as a vaulted hall, branches forming natural arches, and a ring of stone altars encircling the base. The layout reveals concentric circles of moss‑covered stones, each etched with names of the forest, leading up to a central platform where the tree’s heart glows with inner light. The atmosphere is reverent and timeless, with a gentle breeze rustling leaves and a faint hum of ancient magic. Lighting is radiant, with shafts of golden sunlight piercing the canopy, illuminating the runes in a soft amber glow, and creating dappled patterns on the forest floor. Textures emphasize the rough bark, the smooth polished stone of the altars, the velvety moss, and the delicate glow of fireflies. Distinctive features include a crown of crystal blossoms that pulse with light and a cascade of silver vines that drape from the highest branches. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "mixed",
+      "enterable": true,
+      "scale": "object",
+      "notes": "Колоссальный дуб с полой полостью, служащей залом, каменными алтарями и светящими рунами; вход только через ствол, без обычных стен и потолка."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Проклятое королевство искажённых имён деревьев",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

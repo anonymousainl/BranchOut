@@ -1,0 +1,79 @@
+{
+  "scene_contract": {
+    "id": "scene_010",
+    "beat_id": "beat_10",
+    "location": "Лиминальная поляна с полупрозрачным светом",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Ален решает защитить дух, используя имя дерева «Эльмир», создавая защитный барьер из корней.",
+    "branch_id": "main",
+    "branch_order": 10
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Дилемма спасения\nДух умоляет Алена спасти его, в то время как охотники требуют сдачи. Герой стоит перед первым моральным выбором: спасти дух или отдать его охотникам.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Решение спасения\nАлен решает защитить дух, используя имя дерева «Эльмир», создавая защитный барьер из корней.\n\n=== CURRENT SCENE PLAN ===\nLocation: Лиминальная поляна с полупрозрачным светом\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Ален решает защитить дух, используя имя дерева «Эльмир», создавая защитный барьер из корней.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Лагерь охотников в тенях\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Лагерь охотников в тенях, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Лиминальная поляна с полупрозрачным светом': Светящаяся полоса корней – Древняя тропа, Лагерь охотников в тенях\n\n=== CURRENT LOCATION CANON (BG) ===\n[Лиминальная поляна с полупрозрачным светом] A high‑angle panoramic shot looking down onto a liminal clearing bathed in semi‑transparent light, with the composition centered on a circular meadow surrounded by towering, mist‑shrouded trees whose trunks seem to fade into the fog. The architecture is purely natural, with a layout of gently rolling grass, a shallow reflective pool at the center, and faint, floating motes of light that drift like fireflies. The atmosphere feels ethereal and timeless, with a soft, cool breeze that carries a faint scent of pine and distant water. Lighting is diffused, creating a veil of pastel hues—lavender, pale teal, and soft gold—that filter through the mist, giving the scene a dreamlike glow. Textures emphasize the silky grass, the smooth surface of the pool, the delicate veil of fog, and the subtle glimmer on the leaves. Distinctive features include a circle of ancient standing stones partially covered in lichen, each emitting a faint pulse of light. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Круглая поляна с полупрозрачным светом, центральный пруд, стоячие камни, лёгкий туман; нет внутренних помещений.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт своё дар слышать имена деревьев и получает намёк на Тропу Тихих Корней, ощущая присутствие изгой‑духа.\n- Под наставлением Марии Мирон практикует магию имён: исцеляет траву именем «Липа», ускоряет рост семени «Сосна», создаёт защитный барьер «Эльмир», размышляя о моральном выборе и балансе магии, пока в хижине тихо шепчут Древние Тропы.\n- Мирон выходит из хижины на рассвете, слышит из земли зов Древних Троп, распознаёт имя «Древняя Тропа», вспоминает двойственную природу магии имён, видит светящийся след корней и решает следовать ему, оставляя путь в глубь леса открытым.\n- Мирон слушает зов Древних Троп, вспоминает Дуб‑Вечный и взвешивает страх перед неизвестным против жажды открытий, пока держит моральный выбор между силой и исцелением.\n- Мирон покидает хижину, проходит к краю леса, встречает скитальца‑следопыта Ивана, который рассказывает о Древней Тропе как живой артерии, предупреждает о двойственной природе магии имён и советует подготовиться, дарит веточку дуба и листовой оберег, указывает светящийся след корней и отправляет героя в путь.\n- Мирон следует светящейся полосе корней, произносит имя «Древняя тропа», открывая путь в иной мир, где слышит крик изгой‑духа и осознаёт двойственную природу магии имён.\n- Мирон покидает светящуюся полосу корней и приходит на лиминальную поляну, где встречает раненого изгой‑духа. Произнеся имя «Серебряный дуб», он частично исцеляет дух, разрывая светящиеся цепи, и получает от него знание о скрытой Тропе Шепчущих Корней. Он принимает моральный выбор помочь духу, несмотря на угрозу охотников, и отправляется в путь, сохраняя уважение к двойственной природе магии имён.\n- Мирон, следуя шепоту Тропы Шепчущих Корней, приближается к лагерю охотников, где кристаллический кристалл приводит трёх охотников к попытке поймать изгой‑духа. Он делает моральный выбор, частично успокаивая дух и направляя его к спасительной тропе, пока охотники продолжают погоню.\n- Мирон слышит мольбу духа Сыча и крики охотников, стоя перед выбором: спасти полупрозрачного существа или отдать его ради собственной безопасности. Он решает использовать магию имён, освобождая дух и следуя за светящейся тропой, оставляя охотников позади.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Дальний вой указывает на приближение других охотников, их тени растягиваются по земле.\n> [thought] Мирон: Я собираюсь бежать, держась за свет, который обещает спасение.\n> [narration] Сцена завершается мерцанием тропы, зовущей в неизвестность.",
+    "rag_context": {
+      "global_facts": "Темное средневековое королевство покрыто древними лесами, где Древние Тропы соединяют сказочные миры. Магия имён деревьев позволяет управлять природой, исцелять и наносить вред, но требует морального выбора. В лесу обитает изгой‑дух, а охотники охотятся за ним. Главный герой — юный ученик травницы, Мирон, умеющий слышать имена деревьев.",
+      "current_beat_facts": "Beat 10 — «Решение спасения». Высокое напряжение. Мирон (Ален) решает защитить дух, произнося имя дерева «Эльмир» и создавая из корней защитный барьер. Цель — реакция на угрозу охотников и спасение духа.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, мягкий, решительный, умеет слышать имена деревьев. После недавнего выбора он уверен в себе (confidence raised), знает Тропу Шепчущих Корней, находится в состоянии «resolved_dilemma», готов использовать магию имён для защиты."
+      },
+      "recent_events": "1. Мирон спасает полупрозрачного духа Сыча, используя имя «Серебряный дуб», и получает знание о Тропе Шепчущих Корней. 2. Он проходит к лагерю охотников, где три охотника пытаются поймать дух; Мирон частично успокаивает дух и направляет его к спасительной тропе. 3. Дух умоляет спасения, охотники требуют сдачи; Мирон решает использовать магию, освобождая дух и следуя за светящейся тропой, оставляя охотников позади. 4. Последняя сцена завершилась звуком далёкого воя, мыслью Мирона о бегстве и мерцанием тропы, после чего он направляется к лиминальной поляне.",
+      "open_threads": [
+        "Судьба изгой‑духа: будет ли он полностью спасён или останется уязвимым?",
+        "Последствия создания барьера «Эльмир»: закроет ли он Древние Тропы для всех, кроме Мирона?",
+        "Конфликт с охотниками: смогут ли они догнать героя после барьера?",
+        "Выбор между силой (разрушительные заклинания) и исцелением (мягкая магия) в дальнейшем.",
+        "Определение роли Мирона: вернуться домой или стать хранителем Древних Троп."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон выходит из теней лагеря охотников и ступает на лиминальную поляну, где полупрозрачный свет обнажает сеть светящихся корней.",
+        "2) Он слышит слабый крик изгой‑духа, раненого и испуганного, и ощущает его боль, проникающую в саму землю.",
+        "3) Вспоминая обучение у травницы, Мирон осознаёт, что имя дерева «Эльмир» обладает силой создавать защитные корневые барьеры, способные удержать любую угрозу.",
+        "4) Он быстро оценивает моральный выбор: использовать мощь Эльмира, спасая дух, но рискуя частично закрыть одну из Древних Троп, тем самым ограничив путь домой.",
+        "5) С решимостью, подкреплённой ростом уверенности, Мирон произносит имя «Эльмир», позволяя слову резонировать с древними ветвями вокруг.",
+        "6) Корни мгновенно вспыхивают золотым светом, образуя плотный защитный барьер, который отталкивает приближающихся охотников и охраняет духа.",
+        "7) Барьер наполняет дух изгоя исцеляющей энергией; его раны заживают, а в шёпоте он благодарит Мирона за спасение.",
+        "8) Пока барьер держится, Мирон замечает, как часть Древних Троп, соединяющая эту поляну с другими мирами, слегка затягивается, указывая на цену выбранного спасения."
+      ],
+      "must_hold_true": [
+        "Мирон находится в лиминальной поляне с полупрозрачным светом в этом моменте.",
+        "Единственный присутствующий персонаж в сцене — Мирон (другие персонажи не появляются).",
+        "Имя дерева «Эльмир» действительно обладает способностью создавать защитный барьер из корней.",
+        "Изгой‑дух присутствует в виде раненого существа, нуждающегося в защите.",
+        "Древние Тропы могут быть частично закрыты использованием магии имён."
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Эльмир",
+        "защитный барьер",
+        "изгой‑дух",
+        "Древние Тропы",
+        "моральный выбор"
+      ],
+      "forbidden": [
+        "Введение новых персонажей в сцену",
+        "Изменение местоположения Мирона без объяснения",
+        "Отрицание способности Мирона слышать имена деревьев",
+        "Разрушение барьера без логической причины"
+      ]
+    },
+    "location_canon": "A high‑angle panoramic shot looking down onto a liminal clearing bathed in semi‑transparent light, with the composition centered on a circular meadow surrounded by towering, mist‑shrouded trees whose trunks seem to fade into the fog. The architecture is purely natural, with a layout of gently rolling grass, a shallow reflective pool at the center, and faint, floating motes of light that drift like fireflies. The atmosphere feels ethereal and timeless, with a soft, cool breeze that carries a faint scent of pine and distant water. Lighting is diffused, creating a veil of pastel hues—lavender, pale teal, and soft gold—that filter through the mist, giving the scene a dreamlike glow. Textures emphasize the silky grass, the smooth surface of the pool, the delicate veil of fog, and the subtle glimmer on the leaves. Distinctive features include a circle of ancient standing stones partially covered in lichen, each emitting a faint pulse of light. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Круглая поляна с полупрозрачным светом, центральный пруд, стоячие камни, лёгкий туман; нет внутренних помещений."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Лагерь охотников в тенях",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

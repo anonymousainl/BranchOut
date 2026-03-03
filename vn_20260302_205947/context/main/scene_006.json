@@ -1,0 +1,75 @@
+{
+  "scene_contract": {
+    "id": "scene_006",
+    "beat_id": "beat_06",
+    "location": "Светящаяся полоса корней – Древняя тропа",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Ален обнаруживает светящуюся полосу корней, образующую древнюю тропу, и, произнеся её имя, проникает в иной мир сказок.",
+    "branch_id": "main",
+    "branch_order": 6
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Путь к тропе\nОн отправляется в лес, встречает скитальца‑следопыта Ивана, который рассказывает о легендах Древних Троп и советует подготовиться к путешествию.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Открытие тропы\nАлен обнаруживает светящуюся полосу корней, образующую древнюю тропу, и, произнеся её имя, проникает в иной мир сказок.\n\n=== CURRENT SCENE PLAN ===\nLocation: Светящаяся полоса корней – Древняя тропа\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Ален обнаруживает светящуюся полосу корней, образующую древнюю тропу, и, произнеся её имя, проникает в иной мир сказок.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Окраина леса\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Окраина леса, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Светящаяся полоса корней – Древняя тропа': Окраина леса, Лиминальная поляна с полупрозрачным светом\n\n=== CURRENT LOCATION CANON (BG) ===\n[Светящаяся полоса корней – Древняя тропа] A ground‑level tracking shot following a luminous strip of roots that winds like a river through the forest floor; the composition follows the glowing pathway, flanked by towering ancient trunks and clusters of phosphorescent fungi. Architecture is natural, with the layout forming a narrow, raised corridor of intertwined roots that emit a soft blue‑green light, casting eerie reflections on the surrounding moss. The atmosphere is mystical and silent, with a faint hum of unseen magic and a cool, damp air that carries the scent of earth. Lighting comes from the bioluminescent roots themselves, providing a gentle, otherworldly illumination that highlights the wet, glossy texture of the roots and the velvety moss beside them. Distinctive features include occasional crystal‑like stones embedded in the roots and faint glyphs etched into the bark of nearby trees. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Узкая поднятая дорожка из светящихся корней, окружённая старыми деревьями и светящимися грибами; нельзя описывать стены или потолок, только путь и окружающая растительность.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт своё дар слышать имена деревьев и получает намёк на Тропу Тихих Корней, ощущая присутствие изгой‑духа.\n- Под наставлением Марии Мирон практикует магию имён: исцеляет траву именем «Липа», ускоряет рост семени «Сосна», создаёт защитный барьер «Эльмир», размышляя о моральном выборе и балансе магии, пока в хижине тихо шепчут Древние Тропы.\n- Мирон выходит из хижины на рассвете, слышит из земли зов Древних Троп, распознаёт имя «Древняя Тропа», вспоминает двойственную природу магии имён, видит светящийся след корней и решает следовать ему, оставляя путь в глубь леса открытым.\n- Мирон слушает зов Древних Троп, вспоминает Дуб‑Вечный и взвешивает страх перед неизвестным против жажды открытий, пока держит моральный выбор между силой и исцелением.\n- Мирон покидает хижину, проходит к краю леса, встречает скитальца‑следопыта Ивана, который рассказывает о Древней Тропе как живой артерии, предупреждает о двойственной природе магии имён и советует подготовиться, дарит веточку дуба и листовой оберег, указывает светящийся след корней и отправляет героя в путь.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Иван улыбается, его фигура растворяется в утреннем свете, оставив лишь аромат сосны и шёпот листьев.\n> [thought] Мирон: Каждый шаг будет звучать в унисон с древними голосами, а баланс между исцелением и разрушением станет моим компасом.\n> [narration] Мирон делает первый шаг на светящийся путь; его сапоги слегка скользят по росе, а лес вокруг шуршит, словно сердце мира.",
+    "rag_context": {
+      "global_facts": "Мрачное средневековое королевство покрыто древними лесами, где сеть Древних Троп соединяет миры сказок. Магия имён деревьев позволяет управлять природой, исцелять и наносить разрушения, но требует морального выбора. В лесу обитает изгой‑дух, а охотники желают его поймать. Выбор героя определяет судьбу духа, баланс магии и его собственную роль – вернуться домой или стать хранителем Троп.",
+      "current_beat_facts": "Beat 06 – Turning point: Мирон (Ален) обнаруживает светящуюся полосу корней, произносит её имя и проходит через Древнюю Тропу в иной сказочный мир. Цель – открыть путь к новому миру и поставить героя перед выбором, как использовать магию имён в этом новом пространстве.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, обладает даром слышать имена деревьев. Внешность: худой подросток в коричневой тунике, с листовым серебряным кулоном, свободно держит веточку дикого чабреца. Эмоциональное состояние: решительный, задумчивый, готовый к риску, ощущает ответственность за баланс между исцелением и разрушением. Настроение в текущем бите – сосредоточенный, полон решимости."
+      },
+      "recent_events": "1) Мирон просыпается в хижине, слышит шёпот старого дуба и узнаёт о даре имён деревьев. 2) Под руководством Марии практикует магию имён (исцеление «Липа», рост «Сосна», барьер «Эльмир»). 3) На рассвете слышит зов Древних Троп, распознаёт имя «Древняя Тропа», видит светящийся след корней и решает следовать ему. 4) Размышляет о двойственной природе магии, страхе и жажде открытий. 5) Встречает скитальца‑следопыта Ивана, получает предупреждения о магии имён, получает веточку дуба и оберег, Ивана отправляет в путь. 6) Иван исчезает в утреннем свете, оставив Мирона с мыслью о балансе силы и исцеления. 7) Мирон делает первый шаг на светящийся путь, его сапоги скользят по росе, лес шуршит как сердце мира.",
+      "open_threads": [
+        "Баланс магии имён: исцеление vs разрушение.",
+        "Судьба изгой‑духа и его влияние на мир.",
+        "Последствия открытия Древней Тропы и путешествия в иной мир.",
+        "Угроза охотников, желающих поймать духа.",
+        "Выбор Алена: вернуться домой или стать хранителем Троп.",
+        "Неизвестность, как правильно назвать и контролировать новую Тропу."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон выходит из тени деревьев на окраине леса, чувствуя лёгкое дрожание в земле, будто сама природа шепчет ему.",
+        "2) Его взгляд фиксируется на узкой светящейся полосе корней, протянувшейся сквозь мрак, словно река из чистого света, ведущая вглубь.",
+        "3) Вспоминая уроки Алена о даре слышать имена деревьев, он слышит шёпот древних дубов, произносящий название «Древняя тропа».",
+        "4) Он осознаёт двойственную природу магии имён: слово может открыть путь к другим мирам, но одновременно изменить баланс магии в лесу.",
+        "5) С решимостью, Мирон произносит полное имя тропы, позволяя корням разверзнуться; земля принимает его, и свет начинает обволакивать его тело.",
+        "6) Свет охватывает его, и он ощущает лёгкое перемещение сознания в иной мир сказок, где ветви светятся и воздух наполнен чужими ароматами.",
+        "7) В миг перехода он слышит отдалённый крик изгой‑духа, просившего помощи, напоминая о том, что его выбор повлияет на судьбу духа и баланс магии.",
+        "8) Оказавшись на пороге нового мира, он видит знакомый символ дерева, подтверждая, что его дар к магии имён всё ещё активен и что путь открыт, пока он не решит его закрыть."
+      ],
+      "must_hold_true": [
+        "Мирон находится на окраине леса.",
+        "Светящаяся полоса корней образует Древнюю тропу, требующую знания её имени.",
+        "Магия имён имеет двойственную природу — может открыть путь и изменить баланс магии.",
+        "Изгой‑дух существует в лесу и его судьба зависит от действий героя.",
+        "thread_01 (Дар имён деревьев) уже был затронут в предыдущих битах."
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Древняя тропа",
+        "имя",
+        "светящаяся полоса корней",
+        "магия имён",
+        "изгой‑дух"
+      ],
+      "forbidden": []
+    },
+    "location_canon": "A ground‑level tracking shot following a luminous strip of roots that winds like a river through the forest floor; the composition follows the glowing pathway, flanked by towering ancient trunks and clusters of phosphorescent fungi. Architecture is natural, with the layout forming a narrow, raised corridor of intertwined roots that emit a soft blue‑green light, casting eerie reflections on the surrounding moss. The atmosphere is mystical and silent, with a faint hum of unseen magic and a cool, damp air that carries the scent of earth. Lighting comes from the bioluminescent roots themselves, providing a gentle, otherworldly illumination that highlights the wet, glossy texture of the roots and the velvety moss beside them. Distinctive features include occasional crystal‑like stones embedded in the roots and faint glyphs etched into the bark of nearby trees. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Узкая поднятая дорожка из светящихся корней, окружённая старыми деревьями и светящимися грибами; нельзя описывать стены или потолок, только путь и окружающая растительность."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Окраина леса",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

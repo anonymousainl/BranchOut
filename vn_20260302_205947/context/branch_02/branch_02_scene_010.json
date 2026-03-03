@@ -1,0 +1,95 @@
+{
+  "scene_contract": {
+    "id": "branch_02_scene_010",
+    "beat_id": "beat_21",
+    "location": "Дуб‑Вечный – Древо Имен",
+    "pov_character": "Дух Сыч",
+    "present_characters": [
+      "Дух Сыч",
+      "Мирон",
+      "Князь-скиталец Руд"
+    ],
+    "summary": "Дух ощущает, как барьер запечатывает тропы, и понимает, что теперь только Мирон может пройти через них.",
+    "branch_id": "branch_02",
+    "branch_order": 10
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Кризис: выбор судьбы троп\nАлен стоит перед решающим выбором: использовать всю мощь имени «Дуб-Вечный», чтобы запечатать тропы и спасти дух, но навсегда закрыть путь домой, или оставить их открытыми, рискуя потерять контроль над магией.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Кульминация: запечатывание троп\nОн произносит имя Дуба, создавая огромный барьер из корней, который удерживает охотников и защищает духа, но закрывает Древние Тропы для всех, кроме него.\n\n=== CURRENT SCENE PLAN ===\nLocation: Дуб‑Вечный – Древо Имен\nPOV character: Дух Сыч\nPresent characters: Дух Сыч, Мирон, Князь-скиталец Руд\nPlanned scene summary: Дух ощущает, как барьер запечатывает тропы, и понимает, что теперь только Мирон может пройти через них.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Дух Сыч: location=Дуб‑Вечный – Древо Имен, mood=None\n- Мирон: location=Дуб‑Вечный – Древо Имен, mood=None\n- Князь-скиталец Руд: location=Дуб‑Вечный – Древо Имен, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Дуб‑Вечный – Древо Имен': Подножие Древа Имен\n\n=== CURRENT LOCATION CANON (BG) ===\n[Дуб‑Вечный – Древо Имен] A majestic upward‑looking shot from the forest floor toward a colossal ancient oak, the Eternal Oak, whose massive trunk dominates the frame; the composition centers the tree’s sprawling canopy, interlaced with glowing runes and hanging lanterns, while roots spread like veins across the ground. Architecture is natural yet sacred: a hollowed trunk serving as a vaulted hall, branches forming natural arches, and a ring of stone altars encircling the base. The layout reveals concentric circles of moss‑covered stones, each etched with names of the forest, leading up to a central platform where the tree’s heart glows with inner light. The atmosphere is reverent and timeless, with a gentle breeze rustling leaves and a faint hum of ancient magic. Lighting is radiant, with shafts of golden sunlight piercing the canopy, illuminating the runes in a soft amber glow, and creating dappled patterns on the forest floor. Textures emphasize the rough bark, the smooth polished stone of the altars, the velvety moss, and the delicate glow of fireflies. Distinctive features include a crown of crystal blossoms that pulse with light and a cascade of silver vines that drape from the highest branches. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"mixed\", \"enterable\": true, \"scale\": \"object\", \"notes\": \"Колоссальный дуб с полой полостью, служащей залом, каменными алтарями и светящими рунами; вход только через ствол, без обычных стен и потолка.\"}\nIMPORTANT: This location is NOT a walkable interior. Scene must be outside; no rooms/walls/ceilings/entering inside.\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nДух Сыч: Дух Сыч hovers ethereally, a translucent owl‑like form composed of swirling mist and faint moonlight, wings outstretched as if caught in a silent glide, luminous amber eyes gazing with ancient wisdom, a faint outline of feathers shimmering with subtle runic symbols, no physical attire but a soft aura of pale blue encircles its form, its expression is solemn and enigmatic, embodying the lingering sorrow of an exile spirit bound to the ancient forest; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nКнязь-скиталец Руд: Князь-скиталец Руд stands with a weary yet regal bearing, his tall, lean silhouette leaning against a weathered staff, a dark, tattered noble coat with fur lining draped over his shoulders, a crimson ruby brooch shaped like a flame pinned to his chest, his sharp angular face marked by a thin scar across his brow, dark eyes reflecting distant longing, a short trimmed beard framing his jaw, boots polished but scuffed from travel, his expression a mix of melancholy and resolute determination as he gazes toward unseen horizons; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон, окружённый разрушенным городом и защитным барьером «Эльмир», взвешивает два имени — «Сирень» и «Липа» — между разрушением темного источника и исцелением земли и людей, пока изгоненный дух Сыч ждёт его решения.\n- Мирон, стоя на окраине леса, обсуждает с Духом Сычем последствия своего выбора: королевство спасено, но магия духа ослабла, барьер Эльмир мерцает, а Древняя Тропа частично закрыта. Чувство вины давит на него, но он клянётся найти путь к восстановлению силы духа, следуя Тропе Шепчущих Корней.\n- Дух Сыч ощущает отток силы, наблюдая за мерцающими корнями, слышит обещание Мирона восстановить его через Тропу Шепчущих Корней, пока защитный барьер «Эльмир» всё ещё держится, а Древняя Тропа остаётся частично закрытой.\n- На лиминальной поляне Дух Сыч благодарит Мирона, частично восстанавливает свою силу и предлагает путь к Древу Имен; Мирон усиливает барьер «Эльмир», обещает помочь духу и отправляется в тёмный лес, где их ждут новые моральные испытания.\n- Мирон, Дух Сыч и Князь‑скиталец Руд собираются у костра в лагере охотников, обсуждая последствия своих прошлых решений. Они совместно используют энергию кристалла и Тропу Шепчущих Корней, чтобы укрепить защитный барьер Эльмир и частично открыть Древнюю Тропу, осознавая двойственную природу магии имён.\n- A brief overview of the scene.\n- Мирон и его союзники сталкиваются с охотницей Нив у подножия Древа Имен, где магический барьер «Эльмир» колеблется, а герой вынужден решить, использовать ли имя «Липа» для исцеления или «Сирень» для разрушения, решая судьбу духа Сычя и будущего Троп.\n- Нив бросается в атаку, барьер Эльмир ослабевает, дух Сыч пытается уйти, а Мирон и Руд пытаются стабилизировать защиту, оставляя Древние Тропы частично закрытыми и ставя героев перед тяжёлым выбором между силой и исцелением.\n- Мирон, Дух Сыч и князь Руд достигают Дуба‑Вечного, где герой решает запечатать Древние Тропы, спасая дух, но навсегда теряя путь домой. После напряжённого диалога и ритуала тропы закрываются, барьер Эльмир восстанавливается, и персонажи отправляются в поисках новых путей.\n- Мирон произносит имя Дуб‑Вечного, и корни образуют непробиваемый барьер, защищая Духа Сыча и отгоняя охотников. Древняя Тропа Шепчущих Корней закрывается, а за барьером появляется загадочное сияние, обещающее новые испытания.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [dialogue] Князь-скиталец Руд: Мы должны идти дальше, пока мир не забудет наш подвиг.\n> [narration] Гул барьера продолжает звучать, ровным и уверенным.\n> [narration] За пределами корневой стены мерцает едва заметное сияние, словно зовя в неизвестность.",
+    "rag_context": {
+      "global_facts": "В мрачном средневековом королевстве густые древние леса скрывают сеть Древних Троп — живых артерий, соединяющих сказочные миры. Магия имён деревьев позволяет управлять природой, исцелять и наносить разрушения, но требует морального выбора. Сейчас активен защитный барьер «Эльмир», его сила стабильна, а Древняя Тропа полностью закрыта, оставив единственный проход только для Мирона.",
+      "current_beat_facts": "Кульминация: Мирон произносит имя Дуб‑Вечного, вызывая огромный корневой барьер, который удерживает охотников и защищает изгнанного духа Сыча. Барьер запечатывает Древние Тропы для всех, кроме Мирона, окончательно решая судьбу пути домой.",
+      "character_facts": {
+        "Дух Сыч": "Состояние: bound (привязан к Дубу‑Вечному), эмоция: peaceful; ощущает, как корневой барьер запечатывает Тропы, понимает, что теперь только Мирон может их пройти; проявляет древнюю мудрость и печальную решимость.",
+        "Мирон": "Состояние: post_ritual, location: Дуб‑Вечный – Древо Имен, confidence: resolved; знает имена Дуб‑Вечный, Тропа Шепчущих Корней, Эльмир; готов принять роль хранителя, понимает, что путь домой закрыт.",
+        "Князь-скиталец Руд": "Состояние: watchful, location: Дуб‑Вечный – Древо Имен; выглядит усталым, но королевским, поддерживает Мирона, наблюдает за происходящим с меланхолией и решимостью."
+      },
+      "recent_events": "1) Мирон в разрушенном городе выбирает между именами «Сирень» и «Липа», решая судьбу темного источника. 2) На окраине леса он обсуждает с Духом Сычем последствия: королевство спасено, но магия духа ослабла, барьер Эльмир мерцает, Тропа частично закрыта; он клянётся восстановить силу духа. 3) Дух Сыч ощущает отток силы, слышит обещание Мирона пройти Тропой Шепчущих Корней. 4) На лиминальной поляне Дух частично восстанавливает свою силу, предлагает путь к Древу Имен; Мирон усиливает барьер Эльмир и отправляется в тёмный лес. 5) В лагере охотников Мирон, Дух Сыч и князь Руд укрепляют барьер Эльмир и частично открывают Древнюю Тропу. 6) Сражение с охотницей Нив у подножия Древа Имен, барьер Эльмир колеблется, Мирон выбирает между исцелением и разрушением, судьба духа и Троп на кону. 7) После боя барьер стабилизирован, Древние Тропы остаются частично закрытыми. 8) Мирон, Дух Сыч и князь Руд достигают Дуба‑Вечного, решают запечатать Тропы, спасая дух, но теряя путь домой; барьер Эльмир восстанавливается, они отправляются искать новые пути.",
+      "open_threads": [
+        "Древняя Тропа закрыта: только Мирон может её пройти – как это повлияет на его возвращение домой?",
+        "Судьба Духа Сыча: останется ли он навечно привязан к Дубу‑Вечному после запечатывания?",
+        "Охотники (Нив и её союзники) продолжают охоту – возможна ли новая угроза для Мирона и Руда?",
+        "Выбор героя: стать хранителем Древних Троп или искать способ вернуться в родную деревню.",
+        "Баланс магии имён после усиления барьера Эльмир: как стабильность барьера отразится на будущих магических действиях."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Дух Сыч ощущает вибрацию корней, как будто живой пульс земли усиливается, и понимает, что магия имени Дуб‑Вечного начинает действовать.",
+        "2) Он слышит, как Мирон произносит имя Дуб‑Вечного, и видит, как корни вспыхивают ярким светом, формируя массивный барьер из земли вокруг Древа Имен.",
+        "3) Барьер мгновенно охватывает Дуб‑Вечный, удерживая охотников и защищая Духа Сыча, при этом земля дрожит от силы заклинания.",
+        "4) Дух Сыч чувствует, как часть его собственной силы вливается в барьер, но в обмен получает глубокий покой и ощущение завершённости.",
+        "5) Он осознаёт, что барьер запечатывает Древние Тропы, делая их закрытыми для всех, кроме Мирона, чей путь теперь единственный сквозь них.",
+        "6) Князь‑скиталец Руд стоит на границе барьера, наблюдая за происходящим с внимательностью, но не вмешивается в ритуал.",
+        "7) Внутренний шёпот Духа говорит, что его связь с Тропами ослаблена, однако он теперь связан с Мироном как хранитель и защитник.",
+        "8) Дух Сыч, будучи bound и мирным, тихо благодарит Мирона, принимая новую роль, пока барьер остаётся стабильным и активным."
+      ],
+      "must_hold_true": [
+        "protective_barrier_active == true",
+        "ancient_trail_status == \"closed\"",
+        "protective_barrier_strength == \"stable\"",
+        "Дух Сыч location == \"Дуб‑Вечный – Древо Имен\"",
+        "Дух Сыч state == \"bound\"",
+        "Дух Сыч emotion == \"peaceful\"",
+        "Мирон location == \"Дуб‑Вечный – Древо Имен\"",
+        "Мирон state == \"post_ritual\"",
+        "Мирон confidence == \"resolved\"",
+        "Князь‑скиталец Руд location == \"Дуб‑Вечный – Древо Имен\"",
+        "Князь‑скиталец Руд state == \"watchful\"",
+        "Охотница Нив location == \"Подножие Древа Имен\"",
+        "Охотница Нив state == \"retreating\""
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Дуб‑Вечный",
+        "Имя Дуб‑Вечного",
+        "барьер из корней",
+        "Дух Сыч",
+        "Мирон",
+        "Князь‑скиталец Руд",
+        "закрытие Древних Троп",
+        "только Мирон может пройти"
+      ],
+      "forbidden": [
+        "барьер деактивируется",
+        "Древние Тропы открыты",
+        "Дух Сыч проявляет гнев или агрессию",
+        "появление новых персонажей, не указанных в сцене",
+        "противоречие состоянию Охотницы Нив (она должна отступать)"
+      ]
+    },
+    "location_canon": "A majestic upward‑looking shot from the forest floor toward a colossal ancient oak, the Eternal Oak, whose massive trunk dominates the frame; the composition centers the tree’s sprawling canopy, interlaced with glowing runes and hanging lanterns, while roots spread like veins across the ground. Architecture is natural yet sacred: a hollowed trunk serving as a vaulted hall, branches forming natural arches, and a ring of stone altars encircling the base. The layout reveals concentric circles of moss‑covered stones, each etched with names of the forest, leading up to a central platform where the tree’s heart glows with inner light. The atmosphere is reverent and timeless, with a gentle breeze rustling leaves and a faint hum of ancient magic. Lighting is radiant, with shafts of golden sunlight piercing the canopy, illuminating the runes in a soft amber glow, and creating dappled patterns on the forest floor. Textures emphasize the rough bark, the smooth polished stone of the altars, the velvety moss, and the delicate glow of fireflies. Distinctive features include a crown of crystal blossoms that pulse with light and a cascade of silver vines that drape from the highest branches. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "mixed",
+      "enterable": true,
+      "scale": "object",
+      "notes": "Колоссальный дуб с полой полостью, служащей залом, каменными алтарями и светящими рунами; вход только через ствол, без обычных стен и потолка."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Дуб‑Вечный – Древо Имен",
+  "transition_required": false,
+  "strict_names": true,
+  "strict_locations": true
+}

@@ -1,0 +1,63 @@
+{
+  "scene_contract": {
+    "id": "scene_009",
+    "beat_id": "beat_09",
+    "location": "Лагерь охотников в тенях",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Дух умоляет Алена спасти его, в то время как охотники требуют сдачи. Герой стоит перед первым моральным выбором: спасти дух или отдать его охотникам.",
+    "branch_id": "main",
+    "branch_order": 9
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Охотники в тени\nТрёх охотников, ведомых кристаллическим кристаллом, появляется в лесу, желая поймать духа ради славы и награды.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Дилемма спасения\nДух умоляет Алена спасти его, в то время как охотники требуют сдачи. Герой стоит перед первым моральным выбором: спасти дух или отдать его охотникам.\n\n=== CURRENT SCENE PLAN ===\nLocation: Лагерь охотников в тенях\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Дух умоляет Алена спасти его, в то время как охотники требуют сдачи. Герой стоит перед первым моральным выбором: спасти дух или отдать его охотникам.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Лагерь охотников в тенях, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Лагерь охотников в тенях': Лиминальная поляна с полупрозрачным светом, Перекрёсток сказок\n\n=== CURRENT LOCATION CANON (BG) ===\n[Лагерь охотников в тенях] A dramatic low‑angle shot from within a shadowed clearing, focusing on a rugged hunters’ camp nestled among twisted pines; the composition places a smoldering fire at the foreground, rough canvas tents pitched in a semi‑circle, and a makeshift wooden watchtower looming in the background. Architecture consists of crude timber frames, bark‑covered walls, and a central stone hearth surrounded by scattered weapon racks and animal pelts. The layout is organized for quick movement: narrow pathways between tents, a concealed trapdoor leading to a hidden storage pit, and a perimeter of sharpened stakes. The atmosphere is tense and foreboding, with heavy, lingering shadows and a faint scent of pine resin and smoke. Lighting is low, with the fire casting flickering orange‑red hues that highlight the rough textures of the canvas, the charred wood, and the glint of metal on weapons. Distinctive features include a blood‑stained hunting trophy mounted on a post and a weathered map of the ancient trails pinned to a tree trunk. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"mixed\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Тёмный лагерь с палатками, костром, деревянной сторожевой башней и ловушками; можно зайти в палатку, но не описывать полноценные комнаты.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт своё дар слышать имена деревьев и получает намёк на Тропу Тихих Корней, ощущая присутствие изгой‑духа.\n- Под наставлением Марии Мирон практикует магию имён: исцеляет траву именем «Липа», ускоряет рост семени «Сосна», создаёт защитный барьер «Эльмир», размышляя о моральном выборе и балансе магии, пока в хижине тихо шепчут Древние Тропы.\n- Мирон выходит из хижины на рассвете, слышит из земли зов Древних Троп, распознаёт имя «Древняя Тропа», вспоминает двойственную природу магии имён, видит светящийся след корней и решает следовать ему, оставляя путь в глубь леса открытым.\n- Мирон слушает зов Древних Троп, вспоминает Дуб‑Вечный и взвешивает страх перед неизвестным против жажды открытий, пока держит моральный выбор между силой и исцелением.\n- Мирон покидает хижину, проходит к краю леса, встречает скитальца‑следопыта Ивана, который рассказывает о Древней Тропе как живой артерии, предупреждает о двойственной природе магии имён и советует подготовиться, дарит веточку дуба и листовой оберег, указывает светящийся след корней и отправляет героя в путь.\n- Мирон следует светящейся полосе корней, произносит имя «Древняя тропа», открывая путь в иной мир, где слышит крик изгой‑духа и осознаёт двойственную природу магии имён.\n- Мирон покидает светящуюся полосу корней и приходит на лиминальную поляну, где встречает раненого изгой‑духа. Произнеся имя «Серебряный дуб», он частично исцеляет дух, разрывая светящиеся цепи, и получает от него знание о скрытой Тропе Шепчущих Корней. Он принимает моральный выбор помочь духу, несмотря на угрозу охотников, и отправляется в путь, сохраняя уважение к двойственной природе магии имён.\n- Мирон, следуя шепоту Тропы Шепчущих Корней, приближается к лагерю охотников, где кристаллический кристалл приводит трёх охотников к попытке поймать изгой‑духа. Он делает моральный выбор, частично успокаивая дух и направляя его к спасительной тропе, пока охотники продолжают погоню.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Кристаллический кристалл, оставшийся позади, мерцает последним всплеском, как напоминание о выборе.\n> [narration] Изгой‑дух, теперь более яркий, следует за мной, его форма всё ещё полупрозрачна.\n> [narration] Лагерь охотников в тенях исчезает в ночи, оставляя за собой лишь шепот ветра.",
+    "rag_context": {
+      "global_facts": "В мрачном средневековом королевстве густые древние леса скрывают сеть Древних Троп — живых артерий, соединяющих сказочные миры. Магия имён деревьев позволяет исцелять, ускорять рост и наносить разрушения, но требует морального выбора. Главный герой — юный ученик травницы, обладающий даром слышать имена деревьев. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы.",
+      "current_beat_facts": "Бит 09 «Дилемма спасения» ставит Мирона перед первым серьёзным моральным выбором: спасать изгой‑духа, который умоляет о помощи, или отдать его охотникам, требующим сдачи. Тension высокий, цель — показать кризис и заставить героя решить, что важнее: спасение духа или собственная безопасность/согласие с охотниками.",
+      "character_facts": {
+        "Мирон": "Подросток‑ученик травницы, умеет слышать имена деревьев. Внешность: худощавый, светлые глаза, лёгкая бородавка, лист‑подвеска, туника, запах дикой полыни. Находится в лагере охотников, держит веточку чабреца, внутренний конфликт между желанием спасти дух и давлением охотников. Уверенность повышена, состояние «resolved_dilemma\".",
+        "Дух Сыч": "Эфирная совообразная форма из тумана и лунного света, с янтарными глазами и руническими узорами на перьях. Частично исцелён после имени «Серебряный дуб», теперь ярче, но всё ещё полупрозрачный и уязвимый. Молит Мирона о спасении.",
+        "Охотница Нив": "Ловкая, мускулистая охотница с изогнутым луком, коротко стриженными рыжими волосами, шрамом на щеке, в тёмно‑зеленой кожаной броне, с волчьей шкурой на руке. Жаждет поймать дух ради славы, настойчива и готова к конфликту.",
+        "Травница Яра": "Опытная наставница, уверенная в своих знаниях о травах и магии имён, но в текущей сцене отсутствует.",
+        "Князь‑скиталец Руд": "Появляется в более поздних сценах, пока не задействован."
+      },
+      "recent_events": "1) Мирон просыпается, слышит шёпот старого дуба и узнаёт о даре имён. 2) Под руководством Марии практикует магию имён, размышляя о её двойственной природе. 3) Выходит из хижины, слышит зов Древних Троп и следует светящему следу корней. 4) Встречает скитальца Ивана, получает совет и оберег. 5) Открывает путь в иной мир, слышит крик изгой‑духа. 6) На лиминальной поляне исцеляет раненого духа, получая знание о Тропе Шепчущих Корней. 7) Следуя шепоту этой Тропы, приближается к лагерю охотников; кристаллический кристалл приводит трёх охотников к попытке поймать дух. 8) Делает частичный моральный выбор, успокаивая дух и направляя его к спасительной тропе, но охотники продолжают погоню. 9) Сцена заканчивается тем, что кристалл мерцает, дух ярче следует за Мироном, а лагерь исчезает в ночи.",
+      "open_threads": [
+        "Дилемма спасения: спасёт ли Мирон изгой‑духа или сдаст его охотникам?",
+        "Продолжение охотников: как отреагируют Нив и её товарищи на выбор Мирона?",
+        "Судьба духа Сыч: восстановится ли полностью его сила и как это повлияет на баланс магии?",
+        "Запечатывание Древних Троп (thread_07): будет ли выбран путь закрыть тропы ради спасения духа?",
+        "Судьба героя (thread_08): вернётся ли Мирон в деревню или станет хранителем Троп?",
+        "Влияние наставников (thread_05): как советы Марии и Ивана будут влиять на дальнейшие решения?",
+        "Развитие охотников (thread_04): будет ли их конфликт с духом эскалировать до открытой схватки?"
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "..."
+      ],
+      "must_hold_true": [
+        "..."
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [],
+      "forbidden": []
+    },
+    "location_canon": "A dramatic low‑angle shot from within a shadowed clearing, focusing on a rugged hunters’ camp nestled among twisted pines; the composition places a smoldering fire at the foreground, rough canvas tents pitched in a semi‑circle, and a makeshift wooden watchtower looming in the background. Architecture consists of crude timber frames, bark‑covered walls, and a central stone hearth surrounded by scattered weapon racks and animal pelts. The layout is organized for quick movement: narrow pathways between tents, a concealed trapdoor leading to a hidden storage pit, and a perimeter of sharpened stakes. The atmosphere is tense and foreboding, with heavy, lingering shadows and a faint scent of pine resin and smoke. Lighting is low, with the fire casting flickering orange‑red hues that highlight the rough textures of the canvas, the charred wood, and the glint of metal on weapons. Distinctive features include a blood‑stained hunting trophy mounted on a post and a weathered map of the ancient trails pinned to a tree trunk. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "mixed",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Тёмный лагерь с палатками, костром, деревянной сторожевой башней и ловушками; можно зайти в палатку, но не описывать полноценные комнаты."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Лагерь охотников в тенях",
+  "transition_required": false,
+  "strict_names": true,
+  "strict_locations": true
+}

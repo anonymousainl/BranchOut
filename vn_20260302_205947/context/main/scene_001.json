@@ -1,0 +1,82 @@
+{
+  "scene_contract": {
+    "id": "scene_001",
+    "beat_id": "beat_01",
+    "location": "Хижина ученика у кромки леса",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Мирон прос",
+    "branch_id": "main",
+    "branch_order": 1
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Утренний шёпот деревьев\nЮный ученик травницы, Ален, просыпается в своей крошечной хижине у кромки леса и слышит, как старый дуб шепчет своё имя, открывая его редкий дар слышать имена деревьев.\n\n=== CURRENT SCENE PLAN ===\nLocation: Хижина ученика у кромки леса\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Мирон прос\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Хижина ученика у кромки леса': Окраина леса\n\n=== CURRENT LOCATION CANON (BG) ===\n[Хижина ученика у кромки леса] A low-angle wide shot from the forest edge looking up at a modest wooden hut perched on a moss‑covered clearing; the composition frames the thatched roof against the towering pines, a crooked stone chimney exhaling faint wisps of smoke, and a simple hand‑carved door half‑open to reveal a dim interior. The architecture is rustic timber with interwoven bark panels, a roof of dried reeds, and a surrounding fence of woven willow branches. The layout shows a narrow dirt path leading to the door, scattered herbs and dried herbs hanging from the eaves, and a small stone well nearby. The atmosphere is quiet and misty, with early morning light filtering through the canopy, casting soft, dappled shadows across the hut’s weathered planks. Textures emphasize the rough bark, the soft thatch, the slick wet stones, and the faint glow of firelight inside. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"indoor\", \"enterable\": true, \"scale\": \"building\", \"notes\": \"Небольшая деревянная хижина с соломенной крышей, каменным дымоходом и открытой дверью; интерьер тесный, стены из берёзовой коры, внутри – тусклый свет, травы и колодец.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.",
+    "rag_context": {
+      "global_facts": "Средневековое королевство, покрытое густыми древними лесами, где существует сеть Древних Троп, соединяющих миры сказок. Магия имён деревьев позволяет управлять природой, исцелять и наносить вред, но требует морального выбора. В лесу живёт изгой‑дух, а охотники желают поймать его. Главный герой — юный ученик травницы с редким даром слышать имена деревьев, от чего зависят судьба духа, баланс магии и его собственный путь.",
+      "current_beat_facts": "Первый бит – вводный, низкое напряжение. Утром в своей хижине юный ученик (Ален) просыпается и слышит, как старый дуб шепчет своё имя, открывая ему редкий дар слышать имена деревьев. Цель – познакомить читателя с миром и магией имён.",
+      "character_facts": {
+        "Мирон": "Подросток‑ученик травницы, худощавый, с лёгкой улыбкой и решительным взглядом. Вдыхает аромат дикого чабреца, что подпитывает его магию. Носит простую коричневую тунику, ремень с мешочками трав, крепкие ботинки и серебряный листовой кулон. Выглядит спокойным, но полным любопытства и лёгкой решимости."
+      },
+      "recent_events": "Ален просыпается в крошечной хижине у кромки леса, слышит шёпот старого дуба, который произносит своё имя, тем самым раскрывая у него способность слышать имена деревьев.",
+      "open_threads": [
+        "Дар имён деревьев – раскрытие способности Алена и развитие магии имён.",
+        "Тайна Древних Троп – изучение легенд, открытие и путешествия по переплетённым сказочным мирам.",
+        "Изгой‑дух – встреча с раненым изгнанным духом, моральный выбор спасения и укрепление его силы.",
+        "Запечатывание троп – ключевой выбор Алена закрыть Древние Тропы, спасая духа, но лишая себя пути домой.",
+        "Судьба героя – окончательный выбор между возвращением в деревню и принятием роли хранителя Древних Троп.",
+        "Наставники и спутники – влияние наставницы (Марии) и других персонажей на развитие Алена."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон просыпается в крошечной хижине у кромки леса, утренний свет пробивается сквозь щели, аромат трав и влажной земли наполняет комнату.",
+        "2) За окном старый дуб шепчет своё имя «Эльмир», и Мирон, благодаря своему редкому дару, слышит слово ясно и отчетливо.",
+        "3) В груди у него вспыхивает тихая вибрация — подтверждение того, что магия имён активна в его крови.",
+        "4) Он вспоминает, как с детства слышал шепот листьев, но сегодня имя дуба прозвучало как зов, открывая новую степень понимания.",
+        "5) Мирон произносит имя «Эльмир» вслух, и небольшая ветка дуба слегка поднимается, демонстрируя, что он может влиять на природу через имя.",
+        "6) Дуб, отвечая, шепчет о забытых тропах, упоминая «Тропу Тихих Корней», намекая на Древние Тропы, которые открываются лишь тем, кто знает их названия.",
+        "7) В земле под хижиной дрожит лёгкое вибрационное чувство — присутствие изгой‑духа, скрытого в тенях, но пока не проявившегося полностью.",
+        "8) Мирон решает остаться в хижине, размышляя, как использовать услышанное имя: исцелять раны деревьев или подготовиться к защите Древних Троп, пока мирный утренний шёпот продолжается."
+      ],
+      "must_hold_true": [
+        "Мирон обладает редким даром слышать имена деревьев.",
+        "Магия имён позволяет управлять природой и исцелять.",
+        "Древние Тропы открываются только при знании их названий.",
+        "Изгой‑дух находится в лесу, его судьба влияет на баланс магии.",
+        "Использование магии имён требует морального выбора."
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "старый дуб",
+        "шепот имени",
+        "дар слышать имена",
+        "утренний свет и аромат трав",
+        "намёк на Древние Тропы (Тропа Тихих Корней)",
+        "изгой‑дух (упомянут, но не встречен)"
+      ],
+      "forbidden": [
+        "полностью раскрыть все способности Мирона",
+        "показать, что он уже умеет закрывать Древние Тропы",
+        "ввести охотников в эту сцену",
+        "нарушить мирный тон утренней сцены",
+        "противоречить правилу, что магия имён может быть разрушительной без выбора"
+      ]
+    },
+    "location_canon": "A low-angle wide shot from the forest edge looking up at a modest wooden hut perched on a moss‑covered clearing; the composition frames the thatched roof against the towering pines, a crooked stone chimney exhaling faint wisps of smoke, and a simple hand‑carved door half‑open to reveal a dim interior. The architecture is rustic timber with interwoven bark panels, a roof of dried reeds, and a surrounding fence of woven willow branches. The layout shows a narrow dirt path leading to the door, scattered herbs and dried herbs hanging from the eaves, and a small stone well nearby. The atmosphere is quiet and misty, with early morning light filtering through the canopy, casting soft, dappled shadows across the hut’s weathered planks. Textures emphasize the rough bark, the soft thatch, the slick wet stones, and the faint glow of firelight inside. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "indoor",
+      "enterable": true,
+      "scale": "building",
+      "notes": "Небольшая деревянная хижина с соломенной крышей, каменным дымоходом и открытой дверью; интерьер тесный, стены из берёзовой коры, внутри – тусклый свет, травы и колодец."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": null,
+  "transition_required": false,
+  "strict_names": true,
+  "strict_locations": true
+}

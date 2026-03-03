@@ -1,0 +1,83 @@
+{
+  "scene_contract": {
+    "id": "branch_02_scene_003",
+    "beat_id": "beat_17",
+    "location": "Лиминальная поляна с полупрозрачным светом",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон",
+      "Дух Сыч"
+    ],
+    "summary": "На полянке Дух благодарит Мирона за спасение, частично восстанавливая свою энергию и предлагая путь к Древу Имен.",
+    "branch_id": "branch_02",
+    "branch_order": 3
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Последствия выбора\nЕсли он выбирает силу, королевство освобождается, но магия духа ослабевает; если исцеление — жители спасаются, а дух получает часть своей утраченной энергии.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Укрепление духа\nДух благодарит Алена, его сила частично восстанавливается, и он предлагает вести к Древу Имен — сердцу всех троп.\n\n=== CURRENT SCENE PLAN ===\nLocation: Лиминальная поляна с полупрозрачным светом\nPOV character: Мирон\nPresent characters: Мирон, Дух Сыч\nPlanned scene summary: На полянке Дух благодарит Мирона за спасение, частично восстанавливая свою энергию и предлагая путь к Древу Имен.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Светящаяся полоса корней – Древняя тропа\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Окраина леса, mood=None\n- Дух Сыч: location=Окраина леса, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Лиминальная поляна с полупрозрачным светом': Светящаяся полоса корней – Древняя тропа, Лагерь охотников в тенях\n\n=== CURRENT LOCATION CANON (BG) ===\n[Лиминальная поляна с полупрозрачным светом] A high‑angle panoramic shot looking down onto a liminal clearing bathed in semi‑transparent light, with the composition centered on a circular meadow surrounded by towering, mist‑shrouded trees whose trunks seem to fade into the fog. The architecture is purely natural, with a layout of gently rolling grass, a shallow reflective pool at the center, and faint, floating motes of light that drift like fireflies. The atmosphere feels ethereal and timeless, with a soft, cool breeze that carries a faint scent of pine and distant water. Lighting is diffused, creating a veil of pastel hues—lavender, pale teal, and soft gold—that filter through the mist, giving the scene a dreamlike glow. Textures emphasize the silky grass, the smooth surface of the pool, the delicate veil of fog, and the subtle glimmer on the leaves. Distinctive features include a circle of ancient standing stones partially covered in lichen, each emitting a faint pulse of light. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Круглая поляна с полупрозрачным светом, центральный пруд, стоячие камни, лёгкий туман; нет внутренних помещений.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nДух Сыч: Дух Сыч hovers ethereally, a translucent owl‑like form composed of swirling mist and faint moonlight, wings outstretched as if caught in a silent glide, luminous amber eyes gazing with ancient wisdom, a faint outline of feathers shimmering with subtle runic symbols, no physical attire but a soft aura of pale blue encircles its form, its expression is solemn and enigmatic, embodying the lingering sorrow of an exile spirit bound to the ancient forest; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон, следуя шепоту Тропы Шепчущих Корней, приближается к лагерю охотников, где кристаллический кристалл приводит трёх охотников к попытке поймать изгой‑духа. Он делает моральный выбор, частично успокаивая дух и направляя его к спасительной тропе, пока охотники продолжают погоню.\n- Мирон слышит мольбу духа Сыча и крики охотников, стоя перед выбором: спасти полупрозрачного существа или отдать его ради собственной безопасности. Он решает использовать магию имён, освобождая дух и следуя за светящейся тропой, оставляя охотников позади.\n- Мирон выходит из лагеря охотников, приходит на лиминальную поляну, слышит крик изгой‑духа и, приняв моральный выбор, произносит имя «Эльмир», создавая защитный барьер из корней, который спасает дух и частично закрывает Древние Тропы, оставляя героя перед новой дилеммой.\n- Мирон и изгой‑дух убегают от охотников, используя активный барьер «Эльмир» и новые шепчущиеся имена, чтобы пробраться к Тропе Шепчущих Корней; охотники теряют след, а Древняя Тропа остаётся частично закрытой, открывая путь в глубину.\n- Мирон достигает Перекрёстка сказок, открывает путь «Тропа Шепчущих Корней», узнаёт о двойственной природе магии имён и, произнеся «Эльмир» с намерением исцеления, сохраняет активный защищающий барьер и частично закрытую Древнюю тропу, готовясь к дальнейшему выбору.\n- Мирон стоит под аркой Перекрёстка сказок, размышляя о двойственной природе магии имён. Он взвешивает возможность разрушения через имя «Сирень» и исцеления через «Липа», проверяя силу на кусте, пока ощущает активный защитный барьер и судьбу изгой‑духа. Сцена заканчивается открытым вопросом о том, какой путь выберет герой.\n- Мирон выходит из Перекрёстка сказок на Лиминальную поляну, где полупрозрачный свет раскрывает искажённые имена деревьев. В проклятом королевстве жители страдают от болезни, вызванной этими искажёнными именами. Используя дар слышать имена и защитный барьер «Эльмир», он пробует исцелить (ценой ослабления барьера) и разрушить (смещая баланс магии). Его действия частично облегчают страдания, а Древняя Тропа остаётся частично закрытой, подтверждая двойственную природу магии имён.\n- Мирон, окружённый разрушенным городом и защитным барьером «Эльмир», взвешивает два имени — «Сирень» и «Липа» — между разрушением темного источника и исцелением земли и людей, пока изгоненный дух Сыч ждёт его решения.\n- Мирон, стоя на окраине леса, обсуждает с Духом Сычем последствия своего выбора: королевство спасено, но магия духа ослабла, барьер Эльмир мерцает, а Древняя Тропа частично закрыта. Чувство вины давит на него, но он клянётся найти путь к восстановлению силы духа, следуя Тропе Шепчущих Корней.\n- Дух Сыч ощущает отток силы, наблюдая за мерцающими корнями, слышит обещание Мирона восстановить его через Тропу Шепчущих Корней, пока защитный барьер «Эльмир» всё ещё держится, а Древняя Тропа остаётся частично закрытой.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Ветер шепчет сквозь мхи, принося аромат земли, а полупрозрачный свет продолжает светить, как обещание.\n> [thought] Дух Сыч: Я остаюсь здесь, в полупрозрачном свете, пока он не выполнит своё обещание.\n> [narration] Сцена замирает, оставляя их в этом волшебном коридоре, где каждый шаг отзывается эхом выбора.",
+    "rag_context": {
+      "global_facts": "В мрачном средневековом королевстве древние тропы соединяют миры сказок. Магия имён деревьев позволяет исцелять и разрушать, но требует морального выбора. Изгой‑дух Сыч изгнан, а охотники пытаются его поймать. Главный герой — юный ученик травницы Мирон, умеющий слышать имена деревьев и управлять их силой.",
+      "current_beat_facts": "Бит 17 «Укрепление духа» — после спасения духа Сыч частично восстанавливает свою энергию, благодарит Мирона и предлагает вести его к Древу Имен, сердцу всех троп. Цель сцены — показать благодарность духа, укрепление его силы и задать новый путь, при низком уровне напряжения, как продолжение.",
+      "character_facts": {
+        "Мирон": "Подросток‑ученик травницы, уверенный и решительный после серии моральных выборов; знает Тропу Шепчущих Корней и имя «Эльмир», барьер «Эльмир» активен, его уверенность повышена, цель — восстановить силу духа и решить, стать хранителем троп или вернуться домой.",
+        "Дух Сыч": "Эфирная совообразная сущность, изначально ослаблена, теперь частично восстановлена; благодарен Мирону, желает вести его к Древу Имен; ощущает отток силы, но стремится к полному исцелению; выражает solemn и enigmatic эмоции."
+      },
+      "recent_events": "Мирон спас дух Сыча от охотников, использовал имя «Эльмир», создав защитный барьер и частично закрыв Древнюю Тропу. Затем прошёл через Перекрёсток сказок, размышлял о двойственной природе магии имён («Сирень» vs «Липа»), попытался исцелить проклятое королевство, а барьер оставался активным. В сценах ветки 02 он обсудил с духом последствия спасения: королевство спасено, но сила духа ослабла, барьер мерцает, Древняя Тропа частично закрыта, и пообещал найти путь к Тропе Шепчущих Корней для восстановления духа.",
+      "open_threads": [
+        "Как полностью восстановить силу духа Сыча — нужен ли путь к Древу Имен?",
+        "Сохранится ли защитный барьер «Эльмир» и как его ослабление повлияет на дальнейшие события?",
+        "Что решит Мирон: стать хранителем Древних Троп или вернуться домой без доступа к ним?",
+        "Сможет ли Древняя Тропа быть окончательно закрыта или останется частично открытой?",
+        "Продолжат ли охотники преследовать Мирона и духа, и как это повлияет на их путь?"
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) На полянке, освещённой полупрозрачным светом, Дух Сыч, всё ещё ослабленный, благодарит Мирона за спасение, его энергия частично восстанавливается.",
+        "2) Дух, чувствуя проблеск силы, рассказывает о Древе Имен — сердце всех Древних Троп, где хранится истинная сила имён деревьев.",
+        "3) Мирон, с поднятой уверенностью и знанием Тропы Шепчущих Корней, задаёт вопрос о пути к Древу, показывая готовность принять ответственность.",
+        "4) Дух объясняет, что для доступа к Древу необходимо пройти через частично закрытую Древнюю Тропу, пока защитный барьер «Эльмир» остаётся активным.",
+        "5) Мирон произносит имя «Эльмир», усиливая барьер из корней вокруг поляны, подтверждая свою связь с магией имён и защищая Дух Сыча от приближающихся охотников.",
+        "6) Дух указывает направление к скрытому входу в Древо Имен, отмечая, что путь будет опасен и потребует дальнейшего морального выбора.",
+        "7) Мирон принимает решение идти за Духом, обещая помочь полностью восстановить его силу, но понимая, что это может удержать его от возвращения домой.",
+        "8) Сцена завершается, когда они оба уходят в тёмный лес, светящееся сияние Древних Троп мерцает вдалеке, а частично закрытая тропа остаётся загадкой."
+      ],
+      "must_hold_true": [
+        "Защитный барьер «Эльмир» активен",
+        "Древняя Тропа частично закрыта",
+        "Дух Сыч частично восстановил силу, но не полностью исцелён",
+        "Мирон находится на окраине леса, его уверенность повышена, он знает Тропу Шепчущих Корней и Эльмир"
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Дух Сыч",
+        "Древо Имен",
+        "Лиминальная поляна",
+        "частичное восстановление силы духа",
+        "повышенная уверенность Мирона",
+        "защитный барьер Эльмир",
+        "частично закрытая Древняя Тропа",
+        "моральный выбор"
+      ],
+      "forbidden": [
+        "Полное исцеление Духа Сыч",
+        "Полное закрытие Древних Троп",
+        "Отключение защитного барьера",
+        "Изменение местоположения персонажей"
+      ]
+    },
+    "location_canon": "A high‑angle panoramic shot looking down onto a liminal clearing bathed in semi‑transparent light, with the composition centered on a circular meadow surrounded by towering, mist‑shrouded trees whose trunks seem to fade into the fog. The architecture is purely natural, with a layout of gently rolling grass, a shallow reflective pool at the center, and faint, floating motes of light that drift like fireflies. The atmosphere feels ethereal and timeless, with a soft, cool breeze that carries a faint scent of pine and distant water. Lighting is diffused, creating a veil of pastel hues—lavender, pale teal, and soft gold—that filter through the mist, giving the scene a dreamlike glow. Textures emphasize the silky grass, the smooth surface of the pool, the delicate veil of fog, and the subtle glimmer on the leaves. Distinctive features include a circle of ancient standing stones partially covered in lichen, each emitting a faint pulse of light. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Круглая поляна с полупрозрачным светом, центральный пруд, стоячие камни, лёгкий туман; нет внутренних помещений."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Светящаяся полоса корней – Древняя тропа",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

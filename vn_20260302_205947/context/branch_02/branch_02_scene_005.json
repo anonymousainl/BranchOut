@@ -1,0 +1,91 @@
+{
+  "scene_contract": {
+    "id": "branch_02_scene_005",
+    "beat_id": "beat_18",
+    "location": "Перекрёсток сказок",
+    "pov_character": "Князь-скиталец Руд",
+    "present_characters": [
+      "Князь-скиталец Руд",
+      "Мирон",
+      "Дух Сыч"
+    ],
+    "summary": "Руд делится своей мудростью о древних именах у Перекрёстка сказок, подсказывая, какие слова могут открыть или закрыть пути.",
+    "branch_id": "branch_02",
+    "branch_order": 5
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Укрепление духа\nДух благодарит Алена, его сила частично восстанавливается, и он предлагает вести к Древу Имен — сердцу всех троп.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Путь к Древу Имен\nГерой, дух и Иван идут по извилистым тропам, обсуждая, как их решения изменили баланс магии в разных мирах.\n\n=== CURRENT SCENE PLAN ===\nLocation: Перекрёсток сказок\nPOV character: Князь-скиталец Руд\nPresent characters: Князь-скиталец Руд, Мирон, Дух Сыч\nPlanned scene summary: Руд делится своей мудростью о древних именах у Перекрёстка сказок, подсказывая, какие слова могут открыть или закрыть пути.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Лагерь охотников в тенях\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Князь-скиталец Руд: location=Лагерь охотников в тенях, mood=None\n- Мирон: location=Лагерь охотников в тенях, mood=None\n- Дух Сыч: location=Лагерь охотников в тенях, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Перекрёсток сказок': Лагерь охотников в тенях, Проклятое королевство искажённых имён деревьев\n\n=== CURRENT LOCATION CANON (BG) ===\n[Перекрёсток сказок] A balanced wide‑shot from a slightly elevated perspective, capturing a crossroads where three distinct paths converge beneath an ancient stone archway etched with runic symbols; the composition places the arch at the center, each path leading toward a different thematic landscape—one shrouded in mist, another bathed in golden light, and the third cloaked in twilight shadows. Architecture includes the central stone arch, flanked by weathered pillars covered in ivy, and small stone markers bearing carved sigils at each route’s entrance. The layout is symmetrical, with the paths radiating outward like spokes, each lined with unique flora—luminescent mushrooms, golden wheat, and dark thorns. The atmosphere feels charged with narrative potential, a subtle hum of unseen stories echoing through the air. Lighting varies per path: soft, diffused morning light on the golden route, cool, silvery moonlight on the twilight path, and muted, mist‑filled glow on the foggy trail. Textures highlight the rough granite of the arch, the smooth moss on the stones, and the varied ground cover of each path. Distinctive features include a floating lantern that hovers above the arch, casting a gentle, multicolored glow. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Каменный арочный переход, три пути с разными ландшафтами; арка – наружная, без внутренних помещений.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nКнязь-скиталец Руд: Князь-скиталец Руд stands with a weary yet regal bearing, his tall, lean silhouette leaning against a weathered staff, a dark, tattered noble coat with fur lining draped over his shoulders, a crimson ruby brooch shaped like a flame pinned to his chest, his sharp angular face marked by a thin scar across his brow, dark eyes reflecting distant longing, a short trimmed beard framing his jaw, boots polished but scuffed from travel, his expression a mix of melancholy and resolute determination as he gazes toward unseen horizons; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nДух Сыч: Дух Сыч hovers ethereally, a translucent owl‑like form composed of swirling mist and faint moonlight, wings outstretched as if caught in a silent glide, luminous amber eyes gazing with ancient wisdom, a faint outline of feathers shimmering with subtle runic symbols, no physical attire but a soft aura of pale blue encircles its form, its expression is solemn and enigmatic, embodying the lingering sorrow of an exile spirit bound to the ancient forest; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон выходит из лагеря охотников, приходит на лиминальную поляну, слышит крик изгой‑духа и, приняв моральный выбор, произносит имя «Эльмир», создавая защитный барьер из корней, который спасает дух и частично закрывает Древние Тропы, оставляя героя перед новой дилеммой.\n- Мирон и изгой‑дух убегают от охотников, используя активный барьер «Эльмир» и новые шепчущиеся имена, чтобы пробраться к Тропе Шепчущих Корней; охотники теряют след, а Древняя Тропа остаётся частично закрытой, открывая путь в глубину.\n- Мирон достигает Перекрёстка сказок, открывает путь «Тропа Шепчущих Корней», узнаёт о двойственной природе магии имён и, произнеся «Эльмир» с намерением исцеления, сохраняет активный защищающий барьер и частично закрытую Древнюю тропу, готовясь к дальнейшему выбору.\n- Мирон стоит под аркой Перекрёстка сказок, размышляя о двойственной природе магии имён. Он взвешивает возможность разрушения через имя «Сирень» и исцеления через «Липа», проверяя силу на кусте, пока ощущает активный защитный барьер и судьбу изгой‑духа. Сцена заканчивается открытым вопросом о том, какой путь выберет герой.\n- Мирон выходит из Перекрёстка сказок на Лиминальную поляну, где полупрозрачный свет раскрывает искажённые имена деревьев. В проклятом королевстве жители страдают от болезни, вызванной этими искажёнными именами. Используя дар слышать имена и защитный барьер «Эльмир», он пробует исцелить (ценой ослабления барьера) и разрушить (смещая баланс магии). Его действия частично облегчают страдания, а Древняя Тропа остаётся частично закрытой, подтверждая двойственную природу магии имён.\n- Мирон, окружённый разрушенным городом и защитным барьером «Эльмир», взвешивает два имени — «Сирень» и «Липа» — между разрушением темного источника и исцелением земли и людей, пока изгоненный дух Сыч ждёт его решения.\n- Мирон, стоя на окраине леса, обсуждает с Духом Сычем последствия своего выбора: королевство спасено, но магия духа ослабла, барьер Эльмир мерцает, а Древняя Тропа частично закрыта. Чувство вины давит на него, но он клянётся найти путь к восстановлению силы духа, следуя Тропе Шепчущих Корней.\n- Дух Сыч ощущает отток силы, наблюдая за мерцающими корнями, слышит обещание Мирона восстановить его через Тропу Шепчущих Корней, пока защитный барьер «Эльмир» всё ещё держится, а Древняя Тропа остаётся частично закрытой.\n- На лиминальной поляне Дух Сыч благодарит Мирона, частично восстанавливает свою силу и предлагает путь к Древу Имен; Мирон усиливает барьер «Эльмир», обещает помочь духу и отправляется в тёмный лес, где их ждут новые моральные испытания.\n- Мирон, Дух Сыч и Князь‑скиталец Руд собираются у костра в лагере охотников, обсуждая последствия своих прошлых решений. Они совместно используют энергию кристалла и Тропу Шепчущих Корней, чтобы укрепить защитный барьер Эльмир и частично открыть Древнюю Тропу, осознавая двойственную природу магии имён.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Троица готовится к следующему шагу, их сердца бьются в унисон с шёпотом Тропы.\n> [narration] Но вдалеке слышен голоc, как будто сама Древняя Тропа зовёт их вперёд.\n> [narration] Какой путь они выберут, решит лишь баланс магии.",
+    "rag_context": {
+      "global_facts": "В мрачном средневековом королевстве густые древние леса скрывают сеть Древних Троп — живых артерий между сказочными мирами. Магия имён деревьев позволяет исцелять и разрушать, но требует морального выбора. Главный герой — юный ученик травницы, обладающий даром слышать имена деревьев, а рядом с ним изгой‑дух Сыч и охотники, желающие поймать его.",
+      "current_beat_facts": "Бит 18 («Путь к Древу Имен») — средний уровень напряжения, цель: путешествие по извилистым тропам, где герой, дух и Иван обсуждают, как их прошлые решения изменили баланс магии в разных мирах, приближаясь к Древу Имен.",
+      "character_facts": {
+        "Князь-скиталец Руд": "Выдержанный, но меланхоличный, высокий, в потёртом дворянском плаще с рубиновым брошьем. Смотрит в даль, полон решимости и лёгкой печали; физически готов к долгому пути.",
+        "Мирон": "Юный ученик‑травник, худощавый, с ароматом дикой полыни, мягким лицом, янтарными глазами, лёгкой упрямостью. Уверен в своих знаниях (Тропа Шепчущих Корней, имя Эльмир), эмоционально решителен, но ощущает вину за последствия.",
+        "Дух Сыч": "Эфирная совообразная сущность из тумана и лунного света, с янтарными глазами, покрытая светлой синей аурой. Серьёзен, полон древней мудрости, но его сила ослаблена; стремится к восстановлению."
+      },
+      "recent_events": "Мирон спас дух, произнеся имя Эльмир, создав защитный барьер, который частично закрыл Древние Тропы. Затем они с духом укрылись от охотников, прошли Тропу Шепчущих Корней, открыли Перекрёсток сказок и узнали о двойственной природе магии имён. После размышлений о именах Сирень и Липа, они вернулись к лагерю, укрепили барьер Эльмир и частично открыли Древнюю Тропу, обсуждая последствия своих решений у костра.",
+      "open_threads": [
+        "Как восстановить полную силу духа Сыч и решить его изгнание (тема Изгой‑дух).",
+        "Состояние и дальнейшее использование защитного барьера Эльмир (активен, усилен, но ослабляется).",
+        "Частично закрытая Древняя Тропа — нужно ли её полностью открыть или навсегда запечатать (тема Запечатывание троп).",
+        "Выбор между разрушительным именем «Сирень» и исцеляющим «Липа» — как повлияет на баланс магии (тема Сила vs Исцеление).",
+        "Как решения героя изменят баланс магии имён в разных мирах (тема Баланс магии).",
+        "Продолжит ли герой идти к Древу Имен и какую роль он сыграет — вернуться домой или стать хранителем (тема Наставники и спутники).",
+        "Продолжит ли охота за духом со стороны охотников и как это повлияет на дальнейший путь."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Руд, Мирон и Дух Сыч собираются у Перекрёстка сказок; Руд берёт на себя роль наставника, открывая карту древних имен, пока лёгкий туман скрывает контуры путей.",
+        "2) Руд напоминает, что защитный барьер над Древними Тропами всё ещё активен и усилен, а сама Тропа остаётся частично закрытой — это ключ к их дальнейшему путешествию.",
+        "3) Он произносит первое имя — «Эльмир» — объясняя, что оно поддерживает исцеляющую часть барьера, позволяя безопасно пройти через узел, где сходятся несколько миров.",
+        "4) Затем Руд раскрывает двойственную природу магии имён: одно и то же слово может как открыть, так и запечатать путь, в зависимости от намерения произносящего.",
+        "5) Руд указывает на «Тропу Шепчущих Корней», названную Мироном, и советует произнести её с целью открыть скрытый проход, но только если цель чиста и направлена на спасение.",
+        "6) Дух Сыч, будучи изгнанным, просит Руда подсказать слово, которое может вернуть часть его силы, но Руд предостерегает, что такое имя может одновременно усилить барьер и закрыть путь домой.",
+        "7) Мирон, уверенный после недавнего решения, задаёт вопрос о том, как назвать путь, который позволит им контролировать баланс магии, и Руд отвечает, что слово «Сирень» несёт в себе разрушительный импульс, но также может исцелить.",
+        "8) Сцена завершается тем, что Руд предлагает каждому выбрать одно имя для дальнейшего шага: открыть путь к новому миру, укрепить барьер или попытаться освободить Духа Сыча, подчёркивая, что их выбор определит судьбу Древних Троп.",
+        "9) Внутренний диалог Руда подсказывает, что любое произнесённое имя оставит след в тканях реальности, и он просит персонажей помнить о моральной ответственности за каждое слово.",
+        "10) Финальная нотка: Руд указывает, что пока барьер остаётся активным, они могут безопасно исследовать Перекрёсток, но каждое открытие будет требовать нового имени и нового выбора."
+      ],
+      "must_hold_true": [
+        "protective_barrier_active = true",
+        "ancient_trail_status = \"partially_closed\"",
+        "protective_barrier_strength = \"reinforced\"",
+        "Мирон имеет знание о Тропе Шепчущих Корней и Эльмир",
+        "Дух Сыч находится в том же месте, что и Руд и Мирон (Перекрёсток сказок) для этой сцены",
+        "thread_01 прогрессирует"
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Руд делится мудростью о древних именах",
+        "Эльмир",
+        "Тропа Шепчущих Корней",
+        "двойственная природа магии имён",
+        "защищающий барьер и его усиление",
+        "частично закрытая Древняя Тропа",
+        "выбор имени влияет на открытие/закрытие путей"
+      ],
+      "forbidden": [
+        "Утверждать, что барьер деактивирован",
+        "Полностью открыть Древнюю Тропу без условия",
+        "Изменять правила мира о магии имён",
+        "Писать, что персонажи находятся в лагере охотников в тенях в этой сцене",
+        "Приводить действия, противоречащие двойственной природе магии"
+      ]
+    },
+    "location_canon": "A balanced wide‑shot from a slightly elevated perspective, capturing a crossroads where three distinct paths converge beneath an ancient stone archway etched with runic symbols; the composition places the arch at the center, each path leading toward a different thematic landscape—one shrouded in mist, another bathed in golden light, and the third cloaked in twilight shadows. Architecture includes the central stone arch, flanked by weathered pillars covered in ivy, and small stone markers bearing carved sigils at each route’s entrance. The layout is symmetrical, with the paths radiating outward like spokes, each lined with unique flora—luminescent mushrooms, golden wheat, and dark thorns. The atmosphere feels charged with narrative potential, a subtle hum of unseen stories echoing through the air. Lighting varies per path: soft, diffused morning light on the golden route, cool, silvery moonlight on the twilight path, and muted, mist‑filled glow on the foggy trail. Textures highlight the rough granite of the arch, the smooth moss on the stones, and the varied ground cover of each path. Distinctive features include a floating lantern that hovers above the arch, casting a gentle, multicolored glow. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Каменный арочный переход, три пути с разными ландшафтами; арка – наружная, без внутренних помещений."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Лагерь охотников в тенях",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

@@ -1,0 +1,95 @@
+{
+  "scene_contract": {
+    "id": "branch_02_scene_012",
+    "beat_id": "beat_23",
+    "location": "Тропы хранителя древних путей",
+    "pov_character": "Дух Сыч",
+    "present_characters": [
+      "Дух Сыч",
+      "Мирон"
+    ],
+    "summary": "Полностью исцелённый, Дух благодарит Мирона и предлагает ему стать хранителем троп, если он останется, либо вернуться домой без доступа к Древним Тропам.",
+    "branch_id": "branch_02",
+    "branch_order": 12
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Эмоциональная отгрузка\nАлен ощущает тяжесть своего решения, вспоминает наставницу и деревню, понимая, что его жертва спасла баланс магии.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Последствия запечатывания\nДух, теперь полностью исцелённый, благодарит Алена и предлагает ему стать хранителем троп, если он останется, или вернуться домой, но без доступа к Древним Тропам.\n\n=== CURRENT SCENE PLAN ===\nLocation: Тропы хранителя древних путей\nPOV character: Дух Сыч\nPresent characters: Дух Сыч, Мирон\nPlanned scene summary: Полностью исцелённый, Дух благодарит Мирона и предлагает ему стать хранителем троп, если он останется, либо вернуться домой без доступа к Древним Тропам.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Лиминальная поляна с полупрозрачным светом\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Дух Сыч: location=Дуб‑Вечный – Древо Имен, mood=None\n- Мирон: location=Лиминальная поляна с полупрозрачным светом, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Тропы хранителя древних путей': Деревня Алена (домашняя деревня)\n\n=== CURRENT LOCATION CANON (BG) ===\n[Тропы хранителя древних путей] A dynamic tracking shot following an ancient stone pathway that winds through the forest, known as the Keeper’s Paths; the composition follows the path’s curve, flanked by towering oaks whose trunks are marked with faded sigils, and occasional stone waymarkers shaped like stylized leaves. Architecture is subtle, consisting of weathered stone slabs set into the earth, low stone arches over small streams, and wooden railings carved with protective runes. The layout is a network of interlocking routes that rise and fall with the terrain, crossing over moss‑covered bridges and passing through hidden clearings. The atmosphere is solemn and protective, with a quiet hush broken only by the rustle of leaves and the distant call of a nightbird. Lighting is dappled, with shafts of sunlight piercing the canopy, creating patterns of light and shadow on the stone, and a faint, ethereal glow emanating from the runes at twilight. Textures showcase the smooth polished stone, the rough bark of the trees, the soft moss underfoot, and the glistening water of the streams. Distinctive features include a pair of ancient stone statues of guardians standing at a fork, each holding a lantern that never extinguishes. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Старый каменный путь с арками, деревянными перилами и статуями‑стражами; путь открытый, без закрытых помещений.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nДух Сыч: Дух Сыч hovers ethereally, a translucent owl‑like form composed of swirling mist and faint moonlight, wings outstretched as if caught in a silent glide, luminous amber eyes gazing with ancient wisdom, a faint outline of feathers shimmering with subtle runic symbols, no physical attire but a soft aura of pale blue encircles its form, its expression is solemn and enigmatic, embodying the lingering sorrow of an exile spirit bound to the ancient forest; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Дух Сыч ощущает отток силы, наблюдая за мерцающими корнями, слышит обещание Мирона восстановить его через Тропу Шепчущих Корней, пока защитный барьер «Эльмир» всё ещё держится, а Древняя Тропа остаётся частично закрытой.\n- На лиминальной поляне Дух Сыч благодарит Мирона, частично восстанавливает свою силу и предлагает путь к Древу Имен; Мирон усиливает барьер «Эльмир», обещает помочь духу и отправляется в тёмный лес, где их ждут новые моральные испытания.\n- Мирон, Дух Сыч и Князь‑скиталец Руд собираются у костра в лагере охотников, обсуждая последствия своих прошлых решений. Они совместно используют энергию кристалла и Тропу Шепчущих Корней, чтобы укрепить защитный барьер Эльмир и частично открыть Древнюю Тропу, осознавая двойственную природу магии имён.\n- A brief overview of the scene.\n- Мирон и его союзники сталкиваются с охотницей Нив у подножия Древа Имен, где магический барьер «Эльмир» колеблется, а герой вынужден решить, использовать ли имя «Липа» для исцеления или «Сирень» для разрушения, решая судьбу духа Сычя и будущего Троп.\n- Нив бросается в атаку, барьер Эльмир ослабевает, дух Сыч пытается уйти, а Мирон и Руд пытаются стабилизировать защиту, оставляя Древние Тропы частично закрытыми и ставя героев перед тяжёлым выбором между силой и исцелением.\n- Мирон, Дух Сыч и князь Руд достигают Дуба‑Вечного, где герой решает запечатать Древние Тропы, спасая дух, но навсегда теряя путь домой. После напряжённого диалога и ритуала тропы закрываются, барьер Эльмир восстанавливается, и персонажи отправляются в поисках новых путей.\n- Мирон произносит имя Дуб‑Вечного, и корни образуют непробиваемый барьер, защищая Духа Сыча и отгоняя охотников. Древняя Тропа Шепчущих Корней закрывается, а за барьером появляется загадочное сияние, обещающее новые испытания.\n- Дух Сыч ощущает, как барьер из корней запечатывает Древние Тропы, понимая, что теперь только Мирон может их пройти; барьер стабилен, а Дух благодарит героя за новую роль хранителя.\n- Мирон, после завершения ритуала у Дуб‑Вечного, выходит на лиминальную поляну, вспоминает наставницу Марию и свою деревню, осознаёт жертву «Сирени», подтверждает стабильность барьера «Эльмир» и закрытость Древней Тропы, и принимает роль хранителя, готового укреплять баланс магии и искать путь к восстановлению Духа Сыча.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Круг древних стоящих камней, покрытых мхом, начинает мягко пульсировать, словно отвечая на его решимость.\n> [thought] Мирон: Он ощущает, как каждый импульс камня усиливает защитный барьер «Эльмир», наполняя его новым резервом силы.\n> [thought] Мирон: Он знает, что путь к полному восстановлению Духа Сыча будет долгим, но его сердце полнится уверенностью, ведь он — хранитель Древних Троп.",
+    "rag_context": {
+      "global_facts": "В мрачном средневековом королевстве древние леса скрывают Древние Тропы — живые артерии, соединяющие сказочные миры. Магия имён деревьев позволяет исцелять и управлять природой, но требует морального выбора. Сейчас защитный барьер «Эльмир» стабилен, а Древняя Тропа полностью закрыта. Дух Сыч полностью исцелён, но остаётся привязан к Дубу‑Вечному, а Мирон стал хранителем, получив знание о Тропе Шепчущих Корней и имени Дуб‑Вечный.",
+      "current_beat_facts": "Beat 23 – «Последствия запечатывания». После ритуала Дух Сыч, будучи полностью исцелённым, благодарит Мирона и предлагает два пути: остаться и стать хранителем Троп, или вернуться в свою деревню, но без доступа к Древним Тропам. Цель – дать персонажу выбор, завершить конфликт и установить новую роль героя.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, теперь пост‑ритуальный, уверенный и решительный; знает Тропу Шепчущих Корней, Эльмир и имя Дуб‑Вечный; готов принять роль хранителя, но может выбрать возвращение домой; физически выглядит как худой подросток в простом тунике, с листовым серебряным кулоном.",
+        "Дух Сыч": "Эфирная совообразная сущность, полностью исцелённая, спокойная и мирная; привязан к Дубу‑Вечному, готов предложить Мирону роль хранителя; эмоционально благодарен, но всё ещё связан с лесом."
+      },
+      "recent_events": "1) Дух Сыч ощущает отток силы, но получает обещание Мирона восстановить его через Тропу Шепчущих Корней; барьер «Эльмир» держится, Древняя Тропа частично закрыта. 2) На лиминальной поляне Дух частично восстанавливает силу, предлагает путь к Древу Имен; Мирон усиливает барьер и отправляется в тёмный лес. 3) Совместно с князем Рудом они укрепляют барьер и частично открывают Древнюю Тропу, осознавая двойственную природу магии имён. 4) Сражение с охотницей Нив у Древа Имен, где Мирон выбирает имя «Липа»/«Сирень», решая судьбу духа и Троп. 5) Мирон, Дух Сыч и князь Руд достигают Дуба‑Вечного, запечатывают Древние Тропы, спасая дух, но теряя путь домой; барьер «Эльмир» восстанавливается. 6) Дух Сыч ощущает запечатывание, благодарит Мирона за роль хранителя. 7) Мирон выходит на лиминальную поляну, вспоминает наставницу, принимает роль хранителя, готов укреплять баланс магии.",
+      "open_threads": [
+        "Тема выбора героя: останется ли Мирон хранителем Троп или вернётся в деревню без доступа к Древним Тропам (thread_08).",
+        "Полное восстановление силы Духа Сыча после запечатывания – будет ли он когда‑нибудь свободен от привязанности к Дубу‑Вечному.",
+        "Поддержание стабильности барьера «Эльмир» и возможные новые угрозы со стороны охотников или иных сил.",
+        "Дальнейшее исследование и возможное открытие новых Древних Троп, учитывая закрытый статус текущих путей."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Дух Сыч, находясь в Дуб‑Вечном – Древе Имен, ощущает мирное состояние и благодарит Мирона за полное исцеление.",
+        "2) Он напоминает, что защитный барьер «Эльмир» остаётся активным и стабильным, а Древние Тропы остаются закрытыми.",
+        "3) Дух предлагает Мирону два пути: остаться и стать хранителем троп, поддерживая барьер, либо вернуться домой, потеряв доступ к Древним Тропам.",
+        "4) Мирон, уверенный и решительный, вспоминает свои знания о Тропе Шепчущих Корней и имени Дуб‑Вечный.",
+        "5) Дух объясняет, что роль хранителя потребует постоянного слушания имён деревьев и поддержания баланса магии имён.",
+        "6) Он подчёркивает, что выбранный путь не изменит текущий статус барьера и закрытие троп, но определит судьбу духа и будущих поколений.",
+        "7) Мирон задаёт вопрос о последствиях для своей деревни, и Дух успокаивает его, уверяя, что защита королевства сохранится.",
+        "8) Оба персонажа стоят в полупрозрачном свете лиминальной поляны, напряжение остаётся низким, и они готовятся к следующему шагу."
+      ],
+      "must_hold_true": [
+        "protective_barrier_active == true",
+        "protective_barrier_strength == stable",
+        "ancient_trail_status == \"closed\"",
+        "Дух Сыч location == \"Дуб‑Вечный – Древо Имен\"",
+        "Дух Сыч state == \"bound\"",
+        "Дух Сыч emotion == \"peaceful\"",
+        "Мирон location == \"Лиминальная поляна с полупрозрачным светом\"",
+        "Мирон state == \"post_ritual\"",
+        "Мирон confidence == \"resolved\"",
+        "Мирон knowledge includes \"Тропа Шепчущих Корней\", \"Эльмир\", \"Имя Дуб‑Вечный\"",
+        "Барьер «Эльмир» стабилен и активен",
+        "Древние Тропы остаются закрытыми"
+      ],
+      "must_touch_threads": [
+        "thread_01",
+        "thread_07"
+      ],
+      "required_mentions": [
+        "Дух Сыч",
+        "Мирон",
+        "Дуб‑Вечный",
+        "барьер «Эльмир»",
+        "Древние Тропы",
+        "предложение стать хранителем",
+        "выбор героя",
+        "баланс магии имён",
+        "Имя Дуб‑Вечный",
+        "Тропа Шепчущих Корней"
+      ],
+      "forbidden": [
+        "Изменять статус защитного барьера (он должен оставаться активным и стабильным)",
+        "Открывать Древние Тропы",
+        "Изменять местоположение или состояние Духа Сыч и Мирона",
+        "Вводить новых персонажей, не указанных в сцене",
+        "Повышать уровень напряжения выше low",
+        "Противоречить правилам мира о магии имён и Древних Тропах"
+      ]
+    },
+    "location_canon": "A dynamic tracking shot following an ancient stone pathway that winds through the forest, known as the Keeper’s Paths; the composition follows the path’s curve, flanked by towering oaks whose trunks are marked with faded sigils, and occasional stone waymarkers shaped like stylized leaves. Architecture is subtle, consisting of weathered stone slabs set into the earth, low stone arches over small streams, and wooden railings carved with protective runes. The layout is a network of interlocking routes that rise and fall with the terrain, crossing over moss‑covered bridges and passing through hidden clearings. The atmosphere is solemn and protective, with a quiet hush broken only by the rustle of leaves and the distant call of a nightbird. Lighting is dappled, with shafts of sunlight piercing the canopy, creating patterns of light and shadow on the stone, and a faint, ethereal glow emanating from the runes at twilight. Textures showcase the smooth polished stone, the rough bark of the trees, the soft moss underfoot, and the glistening water of the streams. Distinctive features include a pair of ancient stone statues of guardians standing at a fork, each holding a lantern that never extinguishes. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Старый каменный путь с арками, деревянными перилами и статуями‑стражами; путь открытый, без закрытых помещений."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Лиминальная поляна с полупрозрачным светом",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

@@ -1,0 +1,91 @@
+{
+  "scene_contract": {
+    "id": "branch_02_scene_016",
+    "beat_id": "beat_25",
+    "location": "Деревня Алена (домашняя деревня)",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон",
+      "Травница Яра"
+    ],
+    "summary": "Вернувшись домой, Мирон использует магию имён, чтобы исцелить больные деревья, становясь уважаемым целителем.",
+    "branch_id": "branch_02",
+    "branch_order": 16
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Ключевой выбор: дом или стража\nИгрок выбирает: вернуться в своё поселение, используя полученные знания для исцеления, или остаться хранителем, охраняя тропы от будущих злоумышленников.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Возвращение домой\nЕсли выбран путь домой, Ален использует магию имён для исцеления больных деревьев в своей деревне, становясь уважаемым целителем.\n\n=== CURRENT SCENE PLAN ===\nLocation: Деревня Алена (домашняя деревня)\nPOV character: Мирон\nPresent characters: Мирон, Травница Яра\nPlanned scene summary: Вернувшись домой, Мирон использует магию имён, чтобы исцелить больные деревья, становясь уважаемым целителем.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Тропы хранителя древних путей\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Тропы хранителя древних путей, mood=None\n\n=== CURRENT LOCATION CANON (BG) ===\n[Деревня Алена (домашняя деревня)] A wide‑angle sunrise shot from a hill overlooking a rustic village, the village of Alena, with thatched cottages clustered around a central square; the composition frames smoke rising from chimneys, a stone well at the center, and fields of golden wheat stretching beyond the rooftops. Architecture features timber‑framed houses with wattle‑and‑daub walls, sloping thatched roofs, and wooden shutters, while the square contains a market stall canopy and a modest wooden statue of a local patron. The layout is organized around a cobblestone road that winds through the village, connecting the homes to the surrounding farmlands and a small wooden bridge over a gentle stream. The atmosphere is warm and inviting, with the scent of fresh bread and the distant sound of a rooster crowing. Lighting is golden, with the early sun casting long, soft shadows, highlighting the warm hues of the thatch and the earthy tones of the walls. Textures emphasize the rough stone of the well, the soft thatch, the smooth cobblestones, and the crisp wheat swaying in the breeze. Distinctive features include a communal fire pit with a stone circle and a banner fluttering from the town hall bearing a simple emblem. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Рустикальная деревня с крытыми соломой домами, центральной площадью, колодцем и полями; можно зайти в дома, но они небольшие и простые.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\nТравница Яра: Травница Яра is depicted in a confident stance, one hand extended forward offering a bundle of fresh herbs, the other gripping a polished wooden staff adorned with carved vines, her mature, weathered face framed by long dark hair pulled back into a practical braid, bright green eyes reflecting deep knowledge, a warm smile creasing the corners, her robust physique clad in an earth‑toned robe layered over a leather apron bristling with pockets of herbs, a moss‑green cloak draped over her shoulders, and a delicate crown of woven vines perched atop her head, embodying the nurturing yet authoritative aura of a seasoned herbalist; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон и его союзники сталкиваются с охотницей Нив у подножия Древа Имен, где магический барьер «Эльмир» колеблется, а герой вынужден решить, использовать ли имя «Липа» для исцеления или «Сирень» для разрушения, решая судьбу духа Сычя и будущего Троп.\n- Нив бросается в атаку, барьер Эльмир ослабевает, дух Сыч пытается уйти, а Мирон и Руд пытаются стабилизировать защиту, оставляя Древние Тропы частично закрытыми и ставя героев перед тяжёлым выбором между силой и исцелением.\n- Мирон, Дух Сыч и князь Руд достигают Дуба‑Вечного, где герой решает запечатать Древние Тропы, спасая дух, но навсегда теряя путь домой. После напряжённого диалога и ритуала тропы закрываются, барьер Эльмир восстанавливается, и персонажи отправляются в поисках новых путей.\n- Мирон произносит имя Дуб‑Вечного, и корни образуют непробиваемый барьер, защищая Духа Сыча и отгоняя охотников. Древняя Тропа Шепчущих Корней закрывается, а за барьером появляется загадочное сияние, обещающее новые испытания.\n- Дух Сыч ощущает, как барьер из корней запечатывает Древние Тропы, понимая, что теперь только Мирон может их пройти; барьер стабилен, а Дух благодарит героя за новую роль хранителя.\n- Мирон, после завершения ритуала у Дуб‑Вечного, выходит на лиминальную поляну, вспоминает наставницу Марию и свою деревню, осознаёт жертву «Сирени», подтверждает стабильность барьера «Эльмир» и закрытость Древней Тропы, и принимает роль хранителя, готового укреплять баланс магии и искать путь к восстановлению Духа Сыча.\n- Дух Сыч, привязанный к Дуб‑Вечному – Древу Имен, благодарит Мирона за исцеление, подтверждает, что барьер «Эльмир» остаётся активным и стабильным, а Древние Тропы закрыты. Он предлагает Мирону выбор: стать хранителем Троп, поддерживая баланс магии имён, или вернуться домой, потеряв доступ к Тропам. Мирон, опираясь на знания о Тропе Шепчущих Корней и имени Дуб‑Вечный, решает остаться хранителем, принимая ответственность за защиту барьера и равновесие магии.\n- Мирон решает остаться хранителем, клянётся защищать защитный барьер «Эльмир», Дуб‑Вечный и Тропу Шепчущих Корней, пока Древние Тропы остаются закрытыми.\n- Мирон ощущает пульс защитного барьера Эльмир у Дуб‑Вечного, обсуждает с Духом Сычем и князем Рудом последствия выбора, и решает остаться хранителем, клянясь защищать Эльмир, Дуб‑Вечный и Тропу Шепчущих Корней, пока Древние Тропы остаются закрытыми.\n- Мирон укрепляет барьер Эльмир, подтверждает закрытие Древних Троп и клянётся охранять Тропу Шепчущих Корней, Дуб‑Вечный и баланс магии имён, отвергая путь домой. Охотница Нив признаёт его решение, а память о наставнице и словах князя‑скитальца Руда поддерживает его решимость.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Листва шептала, ветви слегка покачивались, а воздух наполнялся ароматом дикой травы.\n> [thought] Мирон: Баланс магии имён теперь в моих руках; я не подведу.\n> [narration] Свет, пробиваясь сквозь кроны, обрамил его фигуру, и он исчез в дольках золотого света, уходя дальше по пути хранителя.",
+    "rag_context": {
+      "global_facts": "Средневековое королевство, покрытое древними лесами, где существует сеть Древних Троп, соединяющих сказочные миры. Магия имён деревьев позволяет исцелять и управлять природой, но требует морального выбора. Защищающий барьер «Эльмир» активен и стабилен, а все Древние Тропы сейчас закрыты. Главный герой – юный ученик травницы Мирон, обладающий даром слышать имена деревьев; после серии испытаний он стал хранителем Троп, отвечающим за баланс магии имён.",
+      "current_beat_facts": "Бит 25 – «Возвращение домой». Цель сцены – показать, как Мирон (если бы он выбрал путь домой) использует магию имён, чтобы исцелить больные деревья в своей деревне, завоёвывая уважение как целитель. Это резолютивный, низко‑напряжённый момент, завершающий сюжетную ветку о возвращении.",
+      "character_facts": {
+        "Мирон": "Юный ученик‑травника, теперь хранитель Троп. Уверен в себе, решителен, знает имена «Тропа Шепчущих Корней», «Эльмир», «Дуб‑Вечный». Физически – худой подросток в коричневой тунике, с листовым серебряным кулоном, глазами‑янтарями, лёгкой упрямостью в челюсти. Эмоционально – спокойный, задумчивый, готовый к выбору между долгом и желанием вернуться домой.",
+        "Травница Яра": "Опытная травница, наставница Мирона. Уверена в себе, доброжелательна, излучает авторитет и заботу. Внешность – зрелая женщина в земных одеяниях, с ветвями‑короной, держащая посох и связку трав. Эмоционально – поддерживает Мирона, готова помочь ему в исцелении деревни."
+      },
+      "recent_events": "1) Мирон и союзники встретились с охотницей Нив у подножия Древа Имен, где барьер «Эльмир» колебался; герой выбирал между именем «Липа» (исцеление) и «Сирень» (разрушение). 2) Нив атаковала, барьер ослабел, дух Сыч пытался уйти, Мирон и князь Руд стабилизировали защиту, оставив Тропы частично закрытыми. 3) На Дубе‑Вечном Мирон запечатал Древние Тропы, спас духа, но потерял путь домой; барьер «Эльмир» восстановлен. 4) Дух Сыч благодарит Мирона, подтверждая закрытие Троп и активный барьер, предлагает выбор – стать хранителем или вернуться домой. 5) Мирон выбирает стать хранителем, клянясь защищать барьер, Дуб‑Вечный и Тропу Шепчущих Корней; охотница Нив признаёт его решение.",
+      "open_threads": [
+        "Сможет ли барьер «Эльмир» оставаться стабильным в долгосрочной перспективе?",
+        "Есть ли шанс когда‑нибудь вновь открыть Древние Тропы и восстановить путь домой?",
+        "Как будет развиваться судьба духа Сыч, оставаясь привязанным к Дубу‑Вечному?",
+        "Какие дальнейшие действия предпримут охотники, в частности Нив, после признания выбора Мирона?",
+        "Как совмещать роль хранителя с желанием Мирона помогать своей деревне и людям?"
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон входит в деревню, чувствуя лёгкое дрожание защитного барьера «Эльмир», который всё ещё активен и стабилен над селением.",
+        "2) Травница Яра встречает его у центрального колодца и указывает на ослабевшие деревья, их корни покрыты пятнами гнили от искажённых имён.",
+        "3) Мирон вспоминает имя «Дуб‑Вечный», произносит его, направляя исцеляющую энергию к больным стволам, укрепляя их связь с барьером.",
+        "4) Он использует магию имён, произнося «Липа» и «Сосна», ускоряя рост новых ветвей и восстанавливая листва, при этом барьер остаётся активным и его сила остаётся «stable».",
+        "5) Яра благодарит его, отмечая, что деревня теперь будет безопасна, а жители начнут воспринимать Мирона как уважаемого целителя.",
+        "6) В момент исцеления Мирон ощущает лёгкое покачивание в Древних Тропах, но они остаются закрытыми, подтверждая его выбор пути домой, а не хранителя.",
+        "7) Дух Сыч, привязанный к Дуб‑Вечному, ощущает мир и спокойствие; его состояние остаётся «peaceful» и он по‑прежнему связан с Древом Имен.",
+        "8) Князь‑скиталец Руд наблюдает издалека, но не вмешивается, подтверждая, что защитный барьер не ослаблен.",
+        "9) Охотница Нив отступает, понимая, что дух уже не представляет угрозы, её состояние остаётся «retreating».",
+        "10) Мирон завершает ритуал, его уверенность «resolved» усиливается, он принимает роль уважаемого целителя в своей деревне.",
+        "11) Защищающий барьер «Эльмир» продолжает охранять деревню, его сила остаётся «stable», а древний барьер остаётся активным.",
+        "12) Сцена завершается тихим вечерним светом, мягко освещающим дома, символизируя восстановленное равновесие магии имён."
+      ],
+      "must_hold_true": [
+        "protective_barrier_active == true",
+        "ancient_trail_status == \"closed\"",
+        "protective_barrier_strength == \"stable\"",
+        "Дух Сыч.state == \"bound\" и emotion == \"peaceful\"",
+        "Князь‑скиталец Руд.state == \"watchful\"",
+        "Охотница Нив.state == \"retreating\"",
+        "Мирон.confidence == \"resolved\"",
+        "Мирон.role == \"keeper\" (он сохраняет роль хранителя, но теперь также целитель)"
+      ],
+      "must_touch_threads": [
+        "thread_01"
+      ],
+      "required_mentions": [
+        "Имя Дуб‑Вечный",
+        "Эльмир",
+        "Травница Яра",
+        "Дух Сыч",
+        "Князь‑скиталец Руд",
+        "Охотница Нив",
+        "Тропа Шепчущих Корней (упомянута как остающаяся закрытой)"
+      ],
+      "forbidden": [
+        "Разрушать или ослаблять защитный барьер «Эльмир»",
+        "Открывать Древнюю Тропу (изменять статус с \"closed\")",
+        "Наносить вред Духу Сычу или менять его состояние с \"peaceful\"",
+        "Противоречить уверенности Мирона (не показывать его решимость)",
+        "Изменять роль Мирона с хранителя/целителя"
+      ]
+    },
+    "location_canon": "A wide‑angle sunrise shot from a hill overlooking a rustic village, the village of Alena, with thatched cottages clustered around a central square; the composition frames smoke rising from chimneys, a stone well at the center, and fields of golden wheat stretching beyond the rooftops. Architecture features timber‑framed houses with wattle‑and‑daub walls, sloping thatched roofs, and wooden shutters, while the square contains a market stall canopy and a modest wooden statue of a local patron. The layout is organized around a cobblestone road that winds through the village, connecting the homes to the surrounding farmlands and a small wooden bridge over a gentle stream. The atmosphere is warm and inviting, with the scent of fresh bread and the distant sound of a rooster crowing. Lighting is golden, with the early sun casting long, soft shadows, highlighting the warm hues of the thatch and the earthy tones of the walls. Textures emphasize the rough stone of the well, the soft thatch, the smooth cobblestones, and the crisp wheat swaying in the breeze. Distinctive features include a communal fire pit with a stone circle and a banner fluttering from the town hall bearing a simple emblem. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Рустикальная деревня с крытыми соломой домами, центральной площадью, колодцем и полями; можно зайти в дома, но они небольшие и простые."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Тропы хранителя древних путей",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}

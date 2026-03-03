@@ -1,0 +1,85 @@
+{
+  "scene_contract": {
+    "id": "scene_011",
+    "beat_id": "beat_11",
+    "location": "Перекрёсток сказок",
+    "pov_character": "Мирон",
+    "present_characters": [
+      "Мирон"
+    ],
+    "summary": "Герой и дух ускользают в более глубокие части Древних Троп, охотники преследуют их, а лес шепчет новые имена.",
+    "branch_id": "main",
+    "branch_order": 11
+  },
+  "combined_context": {
+    "base_context_text": "=== WORLD / SETTING ===\nВ мрачном, но живописном средневековом королевстве, покрытом густыми древними лесами, существует сеть забытых троп, известных как Древние Тропы. Эти тропы — живые артерии, соединяющие миры сказок и легенд, позволяющие тем, кто знает их имена, перемещаться между реальностями. Главный герой — юный ученик травницы из небольшого поселения у кромки леса, обладающий редким даром слышать имена деревьев и их скрытую силу. С помощью этой способности он может влиять на магию имён: исцелять раны, пробуждать рост растений или вызывать разрушительные заклинания. В лесу обитает изгой‑дух, изгнанный из своего мира, и охотники, желающие поймать его ради славы. Выборы героя определяют судьбу духа, баланс магии имён и его собственную роль — вернуться домой или стать хранителем Древних Троп.\n\nWORLD RULES:\nМагия имен деревьев позволяет управлять природой и исцелять; Древние Тропы открывают доступ к другим сказочным мирам, но требуют знания их названий; Духи леса могут быть изгнаны или пойманы, их судьба влияет на баланс магии; Использование магии имён имеет двойную природу — может принести силу или исцеление, но требует морального выбора.\n\n=== PREVIOUS BEAT (TEXT) ===\nTitle: Решение спасения\nАлен решает защитить дух, используя имя дерева «Эльмир», создавая защитный барьер из корней.\n\n=== CURRENT BEAT (TEXT) ===\nTitle: Бегство вглубь троп\nГерой и дух ускользают в более глубокие части Древних Троп, охотники преследуют их, а лес шепчет новые имена.\n\n=== CURRENT SCENE PLAN ===\nLocation: Перекрёсток сказок\nPOV character: Мирон\nPresent characters: Мирон\nPlanned scene summary: Герой и дух ускользают в более глубокие части Древних Троп, охотники преследуют их, а лес шепчет новые имена.\n\n=== TRANSITION REQUIRED ===\nPrevious location: Лиминальная поляна с полупрозрачным светом\nYou MUST include travel/arrival glue in the first lines. No teleportation.\n\n=== STORY STATE (CHAR LOCATIONS / MOODS) ===\n- Мирон: location=Лиминальная поляна с полупрозрачным светом, mood=None\n\n=== LOCATION GRAPH HINT ===\nAdjacent plausible locations from 'Перекрёсток сказок': Лагерь охотников в тенях, Проклятое королевство искажённых имён деревьев\n\n=== CURRENT LOCATION CANON (BG) ===\n[Перекрёсток сказок] A balanced wide‑shot from a slightly elevated perspective, capturing a crossroads where three distinct paths converge beneath an ancient stone archway etched with runic symbols; the composition places the arch at the center, each path leading toward a different thematic landscape—one shrouded in mist, another bathed in golden light, and the third cloaked in twilight shadows. Architecture includes the central stone arch, flanked by weathered pillars covered in ivy, and small stone markers bearing carved sigils at each route’s entrance. The layout is symmetrical, with the paths radiating outward like spokes, each lined with unique flora—luminescent mushrooms, golden wheat, and dark thorns. The atmosphere feels charged with narrative potential, a subtle hum of unseen stories echoing through the air. Lighting varies per path: soft, diffused morning light on the golden route, cool, silvery moonlight on the twilight path, and muted, mist‑filled glow on the foggy trail. Textures highlight the rough granite of the arch, the smooth moss on the stones, and the varied ground cover of each path. Distinctive features include a floating lantern that hovers above the arch, casting a gentle, multicolored glow. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.\n\n=== LOCATION AFFORDANCES (HARD CONSTRAINTS) ===\n{\"kind\": \"outdoor\", \"enterable\": true, \"scale\": \"area\", \"notes\": \"Каменный арочный переход, три пути с разными ландшафтами; арка – наружная, без внутренних помещений.\"}\n\n=== CHARACTER NOTES (PRESENT IN SCENE) ===\nМирон: Мирон stands slightly turned to the left, his slender teenage frame leaning forward as he lifts a sprig of wild thyme to his nose, inhaling the earthy scent that fuels his magic; his soft, round face bears gentle amber eyes that glimmer with quiet kindness, a faint stubborn set to his jaw, and a light dusting of freckles across his cheeks, while his modest apprentice’s tunic of muted brown is cinched at the waist with a leather belt holding small pouches of dried herbs, sturdy boots, and a leaf‑shaped silver pendant that rests against his chest, his posture relaxed yet purposeful, conveying a calm, thoughtful expression tinged with resolve; Rendered in visual novel sprite style with clean lines, high detail, no blur, high resolution. Solid color background.\n\n=== RECENT SCENE SUMMARIES ===\n- Мирон просыпается в хижине, слышит шёпот старого дуба, узнаёт своё дар слышать имена деревьев и получает намёк на Тропу Тихих Корней, ощущая присутствие изгой‑духа.\n- Под наставлением Марии Мирон практикует магию имён: исцеляет траву именем «Липа», ускоряет рост семени «Сосна», создаёт защитный барьер «Эльмир», размышляя о моральном выборе и балансе магии, пока в хижине тихо шепчут Древние Тропы.\n- Мирон выходит из хижины на рассвете, слышит из земли зов Древних Троп, распознаёт имя «Древняя Тропа», вспоминает двойственную природу магии имён, видит светящийся след корней и решает следовать ему, оставляя путь в глубь леса открытым.\n- Мирон слушает зов Древних Троп, вспоминает Дуб‑Вечный и взвешивает страх перед неизвестным против жажды открытий, пока держит моральный выбор между силой и исцелением.\n- Мирон покидает хижину, проходит к краю леса, встречает скитальца‑следопыта Ивана, который рассказывает о Древней Тропе как живой артерии, предупреждает о двойственной природе магии имён и советует подготовиться, дарит веточку дуба и листовой оберег, указывает светящийся след корней и отправляет героя в путь.\n- Мирон следует светящейся полосе корней, произносит имя «Древняя тропа», открывая путь в иной мир, где слышит крик изгой‑духа и осознаёт двойственную природу магии имён.\n- Мирон покидает светящуюся полосу корней и приходит на лиминальную поляну, где встречает раненого изгой‑духа. Произнеся имя «Серебряный дуб», он частично исцеляет дух, разрывая светящиеся цепи, и получает от него знание о скрытой Тропе Шепчущих Корней. Он принимает моральный выбор помочь духу, несмотря на угрозу охотников, и отправляется в путь, сохраняя уважение к двойственной природе магии имён.\n- Мирон, следуя шепоту Тропы Шепчущих Корней, приближается к лагерю охотников, где кристаллический кристалл приводит трёх охотников к попытке поймать изгой‑духа. Он делает моральный выбор, частично успокаивая дух и направляя его к спасительной тропе, пока охотники продолжают погоню.\n- Мирон слышит мольбу духа Сыча и крики охотников, стоя перед выбором: спасти полупрозрачного существа или отдать его ради собственной безопасности. Он решает использовать магию имён, освобождая дух и следуя за светящейся тропой, оставляя охотников позади.\n- Мирон выходит из лагеря охотников, приходит на лиминальную поляну, слышит крик изгой‑духа и, приняв моральный выбор, произносит имя «Эльмир», создавая защитный барьер из корней, который спасает дух и частично закрывает Древние Тропы, оставляя героя перед новой дилеммой.\n\n=== IMMEDIATE CONTEXT (PREVIOUS SCENE END) ===\nThe previous scene ended with these exact lines. Continue smoothly:\n> [narration] Барьер, названный «Эльмир», продолжает охранять, его золотой свет отражается в глазах изгой‑духа.\n> [thought] Мирон: Мой следующий шаг — вести дух к спасительной тропе, пока Древние Тропы не исчезнут полностью.\n> [narration] С лёгким шёпотом ветра, он делает первый шаг вперёд, готовый к новому пути.",
+    "rag_context": {
+      "global_facts": "Мрачное средневековое королевство, покрытое древними лесами, содержит сеть Древних Троп — живых артерий, соединяющих сказочные миры. Магия имён деревьев позволяет управлять природой и исцелять, но требует морального выбора. В лесу обитает изгой‑дух, а охотники стремятся поймать его. Главный герой — юный ученик травницы Мирон, обладающий даром слышать имена деревьев и использовать их силу. В текущий момент активен защитный барьер «Эльмир», а Древняя Тропа частично закрыта.",
+      "current_beat_facts": "Бит 11 – «Бегство вглубь троп». Цель – переместить Мирона и изгой‑духа в более глубокие части Древних Троп, уйти от преследующих охотников, пока лес шепчет новые имена. Напряжение среднее, направление – путешествие и развитие конфликта с охотниками.",
+      "character_facts": {
+        "Мирон": "Юный ученик травницы, тонкая фигурка, светло‑коричневый туник, листовой серебряный кулон. Его глаза – тёплые янтарные, лицо покрыто лёгкими веснушками. Уверен в себе (confidence: raised), разрешил внутреннюю дилемму (state: resolved_dilemma), знает Тропу Шепчущих Корней и имя «Эльмир», готов вести дух к спасительной тропе, сохраняет спокойствие, решимость и сочувствие к изгой‑духу."
+      },
+      "recent_events": "1) Мирон просыпается, слышит шёпот дуба и узнаёт о даре имён. 2) Под руководством наставницы практикует исцеление и защиту (имя «Эльмир»). 3) Выходит из хижины, следует зовущей Древней Тропе. 4) Встречает скитальца Ивана, получает совет и оберег. 5) Проходит светящуюся полосу корней, открывает путь в иной мир. 6) На лиминальной поляне исцеляет раненого изгой‑духа, получает знание о Тропе Шепчущих Корней. 7) Приближается к лагерю охотников, частично успокаивает дух, охотники продолжают погоню. 8) Освобождает дух, использует имя «Эльмир», создаёт защитный барьер, частично закрывает Древние Тропы, решив вести дух дальше.",
+      "open_threads": [
+        "Охотники продолжают преследование (Thread 04).",
+        "Судьба изгой‑духа: будет ли он спасён полностью? (Thread 03).",
+        "Статус Древних Троп: частично закрыты, решится ли их полное запечатывание? (Thread 07).",
+        "Ключевой выбор Мирона – вернуться домой или стать хранителем Троп (Thread 08).",
+        "Баланс магии имён: как новые имена, шепчущиеся лесом, повлияют на дальнейшие решения."
+      ]
+    },
+    "microplan": {
+      "microbeats": [
+        "1) Мирон ощущает пульсирующее свечение лиминальной поляны, слышит гудение защитного барьера, который остаётся активным.",
+        "2) Он слышит тяжёлое дыхание изгой‑духа, который просит спешить к Тропе Шепчущих Корней, указывая путь вглубь.",
+        "3) Крики охотников усиливаются; их факелы мерцают, пока они следуют за слабым кристаллическим светом, пытаясь догнать их.",
+        "4) Древесные стволы начинают шептать новые, незнакомые имена, каждое слово резонирует с даром Мирона слышать имена деревьев.",
+        "5) Уверенный Мирон произносит имя великого дуба «Эльмир», заставляя корни вырваться наружу и образовать живой заслон, временно скрывающий их от охотников.",
+        "6) Дух, успокоенный помощью Мирона, скользит вперёд, ведя их к скрытому ответвлению, где Древняя Тропа остаётся частично закрытой, но проходимой.",
+        "7) Вспоминая решённую дилемму, Мирон использует исцеляющее имя, чтобы вылечить повреждённую ветвь, открывающую путь дальше вглубь троп.",
+        "8) Охотники, запутавшиеся в меняющихся шёпотах имён, теряют след, пока лес шепчет всё более таинственные названия, обещая новые испытания в Древних Тропах."
+      ],
+      "must_hold_true": [
+        "Защитный барьер остаётся активным (protective_barrier_active = true).",
+        "Статус Древней Тропы остаётся частично закрытым (ancient_trail_status = partially_closed).",
+        "Мирон сохраняет повышенную уверенность и состояние решённой дилеммы.",
+        "Мирон знает имена «Тропа Шепчущих Корней» и «Эльмир».",
+        "Изгой‑дух остаётся живым и не пойманным."
+      ],
+      "must_touch_threads": [
+        "thread_01",
+        "thread_03",
+        "thread_04"
+      ],
+      "required_mentions": [
+        "защитный барьер",
+        "частично закрытая Древняя Тропа",
+        "новые имена, шепчущиеся в лесу",
+        "уверенность Мирона",
+        "Тропа Шепчущих Корней",
+        "Эльмир",
+        "охотники",
+        "изгой‑дух"
+      ],
+      "forbidden": [
+        "полностью закрыть Древнюю Тропу",
+        "нарушить активность защитного барьера",
+        "потерять уверенность Мирона или вернуть его в состояние нерешённой дилеммы",
+        "убить или поймать изгой‑духа",
+        "отклониться от каноничной доброй развязки"
+      ]
+    },
+    "location_canon": "A balanced wide‑shot from a slightly elevated perspective, capturing a crossroads where three distinct paths converge beneath an ancient stone archway etched with runic symbols; the composition places the arch at the center, each path leading toward a different thematic landscape—one shrouded in mist, another bathed in golden light, and the third cloaked in twilight shadows. Architecture includes the central stone arch, flanked by weathered pillars covered in ivy, and small stone markers bearing carved sigils at each route’s entrance. The layout is symmetrical, with the paths radiating outward like spokes, each lined with unique flora—luminescent mushrooms, golden wheat, and dark thorns. The atmosphere feels charged with narrative potential, a subtle hum of unseen stories echoing through the air. Lighting varies per path: soft, diffused morning light on the golden route, cool, silvery moonlight on the twilight path, and muted, mist‑filled glow on the foggy trail. Textures highlight the rough granite of the arch, the smooth moss on the stones, and the varied ground cover of each path. Distinctive features include a floating lantern that hovers above the arch, casting a gentle, multicolored glow. Rendered in environmental concept art style with high detail, clear lighting, atmospheric perspective, and high resolution.",
+    "location_affordances": {
+      "kind": "outdoor",
+      "enterable": true,
+      "scale": "area",
+      "notes": "Каменный арочный переход, три пути с разными ландшафтами; арка – наружная, без внутренних помещений."
+    }
+  },
+  "min_lines": 45,
+  "prev_location": "Лиминальная поляна с полупрозрачным светом",
+  "transition_required": true,
+  "strict_names": true,
+  "strict_locations": true
+}
