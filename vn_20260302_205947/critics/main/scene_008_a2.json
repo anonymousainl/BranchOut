@@ -1,0 +1,17 @@
+{
+  "attempt": 2,
+  "best_score": 104.9,
+  "best_script_lines": 49,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "attempt": 3,
+  "best_score": 14.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Диалоги духа благодарят Мирона, но указаны как реплики Мирона (неверное указание speaker).",
+      "Сцена содержит избыточные внутренние монологи, что делает её тяжеловесной и снижает динамику."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "role": "Хранитель Древних Троп"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "resolved"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст описывает интерьер хижины, соответствующий канону и аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, сцена начинается непосредственно в хижине без необходимости описывать перемещение."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

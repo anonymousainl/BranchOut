@@ -1,0 +1,49 @@
+{
+  "attempt": 1,
+  "best_score": 7.800000000000001,
+  "best_script_lines": 44,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Отсутствует явное упоминание фразы «моральный выбор», требуемой в required_mentions.",
+      "Диалоги Мирона противоречат его внутреннему конфликту: он громко заявляет о совместной охоте и награде, хотя в мыслях отстаивает уважение к магии имён.",
+      "Отсутствие реплик остальных охотников, хотя они являются ключевыми персонажами сцены."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Лагерь охотников в тенях",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней"
+          ]
+        }
+      },
+      "plot_threads": {
+        "thread_01": "progressed",
+        "thread_04": "active",
+        "thread_05": "active",
+        "thread_06": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "edit_text",
+      "change_location": null,
+      "details": "Текст соответствует описанию лагеря, но требуется добавить явное упоминание морального выбора и скорректировать реплики Мирона, чтобы они не противоречили его внутреннему конфликту."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с описания ухода от лиминальной поляны, что удовлетворяет требованию transition_required."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "attempt": 3,
+  "best_score": 104.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_Эльмир": "active",
+        "ancient_path_status": "partially_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Лиминальная поляна с полупрозрачным светом",
+          "state": "resolved_dilemma",
+          "confidence": "raised"
+        },
+        "Изгой‑дух": {
+          "location": "Лиминальная поляна с полупрозрачным светом",
+          "state": "healed"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "progressed",
+        "thread_02": "touched",
+        "thread_03": "touched",
+        "thread_04": "progressed",
+        "thread_05": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует канону локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены описывает путь из лагеря охотников через подлесок к поляне, удовлетворяя требование перехода."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

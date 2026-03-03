@@ -1,0 +1,31 @@
+{
+  "attempt": 1,
+  "best_score": 27.0,
+  "best_script_lines": 50,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации из location_canon и соответствует affordances (enterable=true, scale=area)."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, поэтому отсутствие описания прибытия/пути допустимо."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

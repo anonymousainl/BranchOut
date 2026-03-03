@@ -1,0 +1,35 @@
+{
+  "attempt": 3,
+  "best_score": 32.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "В summary контракта указано \"Дух умоляет Алена спасти его\", но персонаж Алена в сцене не присутствует; должно быть \"Мирон\".",
+      "В поле present_characters указаны только \"Мирон\", хотя в сцене активно участвуют Охотница Нив и Дух Сыч; они должны быть включены в список присутствующих персонажей."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "state": "resolved_dilemma"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию лагеря, не противоречит canon и не описывает недоступные интерьеры."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, начало сцены уже находится в нужном месте."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": true
+  }
+}

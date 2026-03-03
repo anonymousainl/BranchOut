@@ -1,0 +1,44 @@
+{
+  "attempt": 3,
+  "best_score": 26.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "ancient_trail_status": "partially_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Проклятое королевство искажённых имён деревьев",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Эльмир"
+          ]
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её ограничениям (внешний вид, отсутствие описаний внутренних залов)."
+    },
+    "transition_check": {
+      "teleport": true,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с ухода из Перекрёстка сказок, обеспечивая требуемый переход."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

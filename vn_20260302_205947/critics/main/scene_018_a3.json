@@ -1,0 +1,43 @@
+{
+  "attempt": 3,
+  "best_score": 3.5999999999999996,
+  "best_script_lines": 56,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "present_characters в контракте указаны только как [\"Мирон\"], но в сцене присутствуют Иван и Дух Сыч",
+      "Диалог содержит ошибку: Мирон обращается к себе (\"Мы прошли долгий путь, Мирон\")",
+      "Отсутствует явный переход/появление персонажей в Тропах хранителя, хотя transition_required = true",
+      "story_state указывает, что Мирон находится в \"Дуб‑Вечный – Древо Имен\", а сцена происходит в \"Тропы хранителя древних путей\""
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Мирон": {
+          "location": "Тропы хранителя древних путей"
+        },
+        "Иван": {
+          "location": "Тропы хранителя древних путей"
+        }
+      },
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её affordances"
+    },
+    "transition_check": {
+      "teleport": true,
+      "needs_travel_glue": true,
+      "details": "Не указано явное прибытие или переход из предыдущей локации"
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

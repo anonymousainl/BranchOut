@@ -1,0 +1,55 @@
+{
+  "attempt": 1,
+  "best_score": 26.7,
+  "best_script_lines": 47,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "barrier_elmir_active": true,
+        "ancient_path_partial_closure": true,
+        "liminal_clearing_state": "protected"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Лиминальная поляна с полупрозрачным светом",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Эльмир"
+          ]
+        },
+        "Изгой‑дух": {
+          "location": "Лиминальная поляна с полупрозрачным светом",
+          "state": "healed"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "progressed",
+        "thread_02": "touched",
+        "thread_03": "touched",
+        "thread_04": "progressed",
+        "thread_05": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Описание соответствует канону локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с описания пути от лагеря охотников к полянке, удовлетворяя требованию перехода."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "best_score": 104.9,
+  "best_script_lines": 49,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует описанию локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требуется, сцена начинается без необходимости описания прибытия."
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  }
+}

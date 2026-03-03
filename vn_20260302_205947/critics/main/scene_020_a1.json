@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "best_score": 26.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "ancient_trail_status": "fully_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Дуб‑Вечный – Древо Имен",
+          "state": "resolved_dilemma",
+          "confidence": "raised"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "completed"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует описанию локации и её affordances."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Сцена начинается с упоминания перехода от подножия к вершине Дуба‑Вечного, что удовлетворяет требование transition_required."
+    },
+    "_hard_issues": [
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

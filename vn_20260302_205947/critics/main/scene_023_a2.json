@@ -1,0 +1,54 @@
+{
+  "attempt": 2,
+  "best_score": 14.7,
+  "best_script_lines": 47,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Диалоги духа помечены как реплики Мирона, нарушая согласованность персонажей.",
+      "Отсутствует отдельный персонаж духа в списке present_characters, хотя он активно участвует в сцене."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "ancient_trail_status": "fully_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Хижина ученика у кромки леса",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Эльмир"
+          ]
+        },
+        "Дух": {
+          "location": "Хижина ученика у кромки леса",
+          "state": "healed",
+          "role": "offering_choice"
+        }
+      },
+      "plot_threads": {
+        "thread_01": "progressed"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует канону локации и её affordances (интерьер хижины, indoor, enterable)."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, сцена начинается внутри хижины без необходимости описания перемещения."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

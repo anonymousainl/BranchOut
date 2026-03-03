@@ -1,0 +1,50 @@
+{
+  "attempt": 2,
+  "best_score": 8.8,
+  "best_script_lines": 48,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "protective_barrier_active": true,
+        "ancient_trail_status": "partially_closed"
+      },
+      "characters": {
+        "Мирон": {
+          "location": "Подножие Древа Имен",
+          "state": "resolved_dilemma",
+          "confidence": "raised",
+          "knowledge": [
+            "Тропа Шепчущих Корней",
+            "Эльмир",
+            "Эльмарис"
+          ]
+        }
+      },
+      "plot_threads": {
+        "thread_04": "progressed",
+        "thread_05": "progressed",
+        "thread_07": "active"
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст полностью соответствует описанию локации и её аффордэнсам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Начало сцены описывает выход с каменного пути, обеспечивая плавный переход."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration.",
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}

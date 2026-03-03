@@ -1,0 +1,33 @@
+{
+  "attempt": 1,
+  "best_score": 19.799999999999997,
+  "best_script_lines": 44,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Speaker label mismatch: lines where the spirit speaks are marked as \"Мирон\"."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {}
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Текст соответствует канону локации хижины."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "transition_required = false, сцена начинается внутри хижины без необходимости перехода."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name(s) detected; strict name gate requires regeneration."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  }
+}
