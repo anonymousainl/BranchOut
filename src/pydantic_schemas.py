@@ -268,6 +268,10 @@ class BranchSpec(BaseModel):
 
 class BranchingInfo(BaseModel):
     max_branches: int = Field(1, description="Maximum number of branches requested")
+    main_route_beat_ids: List[str] = Field(
+        default_factory=list,
+        description="Ordered beat IDs that belong to the canonical main route",
+    )
     branches: List[BranchSpec] = Field(default_factory=list, description="Defined routes/endings")
 
 
