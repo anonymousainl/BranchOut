@@ -1003,7 +1003,14 @@ class VNOrchestrator:
                 ending_tone="good",
                 is_canonical=True,
             )
-            bi = BranchingInfo(max_branches=1, branches=[main_spec])
+            main_route_beat_ids = [
+                b.id for b in self._trim_beats_to_single_ending(sorted(outline.beats, key=lambda b: b.order))
+            ]
+            bi = BranchingInfo(
+                max_branches=1,
+                main_route_beat_ids=main_route_beat_ids,
+                branches=[main_spec],
+            )
             if artifact_store is not None:
                 artifact_store.checkpoint("05_branching", bi.dict())
             return bi
@@ -1038,6 +1045,10 @@ class VNOrchestrator:
         branch_specs_raw = data.get("branches") or []
         if not isinstance(branch_specs_raw, list):
             branch_specs_raw = []
+        main_route_beat_ids = [
+            b.id for b in self._trim_beats_to_single_ending(sorted(outline.beats, key=lambda b: b.order))
+        ]
+        main_route_set = set(main_route_beat_ids[:-1])
 
         branches: List[BranchSpec] = [
             BranchSpec(
@@ -1056,7 +1067,7 @@ class VNOrchestrator:
             if not isinstance(br, dict):
                 continue
             from_beat_id = br.get("from_beat_id")
-            if not from_beat_id:
+            if not from_beat_id or str(from_beat_id) not in main_route_set:
                 continue
             branches.append(
                 BranchSpec(
@@ -1071,7 +1082,11 @@ class VNOrchestrator:
                 )
             )
 
-        bi = BranchingInfo(max_branches=max_branches, branches=branches)
+        bi = BranchingInfo(
+            max_branches=max_branches,
+            main_route_beat_ids=main_route_beat_ids,
+            branches=branches,
+        )
         if artifact_store is not None:
             artifact_store.checkpoint("05_branching", bi.dict())
         return bi
@@ -1190,16 +1205,48 @@ class VNOrchestrator:
 
         loc_agent.set_input(loc_list=loc_list, setting=setting.setting)
         return await loc_agent.run(self.client)
-
-    def _beats_for_main_route(self, outline: StoryOutlineFull) -> StoryOutlineFull:
-        beats_sorted = sorted(outline.beats, key=lambda b: b.order)
-        first_res_idx: Optional[int] = None
+        
+    def _trim_beats_to_single_ending(self, beats: List[OutlineBeat]) -> List[OutlineBeat]:
+        beats_sorted = sorted(beats or [], key=lambda b: b.order)
+        if not beats_sorted:
+            return beats_sorted
+    
+        terminal = {"resolution", "epilogue", "финал", "развязка", "эпилог"}
+        major_reopen = {
+            "turning_point", "rising_action", "conflict", "midpoint", "crisis", "climax",
+            "поворот", "конфликт", "кризис", "кульминация",
+        }
+    
+        end_idx, seen_terminal = None, False
         for idx, b in enumerate(beats_sorted):
-            p = (b.purpose or "").lower()
-            if any(key in p for key in ("resolution", "ending", "epilogue")):
-                first_res_idx = idx
+            p = str(b.purpose or "").strip().casefold()
+            if p in terminal:
+                seen_terminal = True
+                end_idx = idx
+            elif seen_terminal and p in major_reopen:
                 break
-        used = beats_sorted if first_res_idx is None else beats_sorted[: first_res_idx + 1]
+            elif seen_terminal:
+                end_idx = idx
+    
+        return beats_sorted if end_idx is None else beats_sorted[: end_idx + 1]
+        
+    def _beats_for_main_route(
+        self,
+        outline: StoryOutlineFull,
+        branching: Optional[BranchingInfo] = None,
+    ) -> StoryOutlineFull:
+        beats_sorted = sorted(outline.beats, key=lambda b: b.order)
+        if not beats_sorted:
+            return StoryOutlineFull(theory=outline.theory, beats=[])
+    
+        main_route_beat_ids = getattr(branching, "main_route_beat_ids", None) if branching is not None else None
+        if main_route_beat_ids:
+            route_set = {str(x).strip() for x in main_route_beat_ids if str(x).strip()}
+            used = [b for b in beats_sorted if b.id in route_set]
+            if used:
+                return StoryOutlineFull(theory=outline.theory, beats=used)
+    
+        used = self._trim_beats_to_single_ending(beats_sorted)
         return StoryOutlineFull(theory=outline.theory, beats=used)
 
     async def _generate_scene_contracts_main(
@@ -1213,7 +1260,7 @@ class VNOrchestrator:
         app_logger.info("Generating scene contracts (main)...")
         model_name = self.router.get_model_for_agent("outline_agent")
         mc_name = char_list[0] if char_list else None
-        outline_main = self._beats_for_main_route(outline)
+        outline_main = outline
         beats_sorted = sorted(outline_main.beats, key=lambda b: b.order)
         payload = {
             "outline": outline_main.dict(),
@@ -1323,26 +1370,28 @@ class VNOrchestrator:
         loc_list: List[str],
         story_length: str,
         branch: BranchSpec,
-    ) -> List[SceneContract]:
+    ) -> Tuple[StoryOutlineFull, List[SceneContract]]:
         if not branch.from_beat_id:
-            return []
-
+            return StoryOutlineFull(theory=outline.theory, beats=[]), []
+    
         beats_sorted = sorted(outline.beats, key=lambda b: b.order)
         order_map = {b.id: b.order for b in beats_sorted}
         if branch.from_beat_id not in order_map:
-            return []
-
+            return StoryOutlineFull(theory=outline.theory, beats=[]), []
+    
         split_order = order_map[branch.from_beat_id]
         tail_beats = [b for b in beats_sorted if b.order > split_order]
+        tail_beats = self._trim_beats_to_single_ending(tail_beats)
         if not tail_beats:
-            return []
-
+            return StoryOutlineFull(theory=outline.theory, beats=[]), []
+    
+        br_outline = StoryOutlineFull(theory=outline.theory, beats=tail_beats)
+    
         model_name = self.router.get_model_for_agent("outline_agent")
         mc_name = char_list[0] if char_list else None
-
-        outline_tail = StoryOutlineFull(theory=outline.theory, beats=tail_beats)
+    
         payload = {
-            "outline": outline_tail.dict(),
+            "outline": br_outline.dict(),
             "char_list": char_list,
             "loc_list": loc_list,
             "story_length": story_length,
@@ -1355,7 +1404,7 @@ class VNOrchestrator:
                 "ending_tone": branch.ending_tone,
             },
         }
-
+    
         resp = await self.client.generate_completion(
             model=model_name,
             temperature=0.4,
@@ -1364,14 +1413,14 @@ class VNOrchestrator:
             response_format={"type": "json_object"},
             operation_name=f"scene_contracts_{branch.id}",
         )
-
+    
         raw = (resp["choices"][0]["message"]["content"] or "").strip()
         schema_hint = '{"scenes":[{"beat_id":"beat_01","location":"...","pov_character":"...","present_characters":["..."],"summary":"..."}]}'
         data = await self._parse_json_with_repair(raw, model_name, f"scene_contracts_{branch.id}_parse", schema_hint)
         raw_scenes = data.get("scenes") or []
         if not isinstance(raw_scenes, list) or not raw_scenes:
-            return []
-
+            return br_outline, []
+    
         contracts: List[SceneContract] = []
         for idx, s in enumerate(raw_scenes):
             if not isinstance(s, dict):
@@ -1395,9 +1444,10 @@ class VNOrchestrator:
                     branch_order=idx + 1,
                 )
             )
+    
         default_loc = loc_list[0] if loc_list else "Unknown Location"
         default_pov = mc_name or (char_list[0] if char_list else "Protagonist")
-
+    
         contracts = self._ensure_beat_coverage_contracts(
             beats=tail_beats,
             contracts=contracts,
@@ -1406,8 +1456,8 @@ class VNOrchestrator:
             default_loc=default_loc,
             default_pov=default_pov,
         )
-
-        return contracts
+    
+        return br_outline, contracts
 
     @staticmethod
     def _extract_last_lines(script: SceneScript, n: int = 3) -> List[str]:
@@ -2685,8 +2735,6 @@ class VNOrchestrator:
                 plot_freeform=plot_freeform,
                 artifact_store=store,
             )
-            for beat in outline_obj.beats:
-                await rag_main.story.upsert_item(beat.id, "beat", beat.summary)
 
             try:
                 threads = await self._extract_plot_threads(user_request.user_prompt, setting_obj, outline_obj, artifact_store=store)
@@ -2708,6 +2756,9 @@ class VNOrchestrator:
                 preferred_ending_types=preferred_endings,
                 artifact_store=store,
             )
+            outline_main_obj = self._beats_for_main_route(outline_obj, branching_info)
+            for beat in outline_main_obj.beats:
+                await rag_main.story.upsert_item(beat.id, "beat", beat.summary or "")
 
             seed_char_list: Optional[List[str]] = None
             if mc_name:
@@ -2792,7 +2843,7 @@ class VNOrchestrator:
                 app_logger.info("Image generation disabled.")
 
             main_contracts = await self._generate_scene_contracts_main(
-                outline_obj, char_list_final, loc_list_final, normalized_length, artifact_store=store
+                outline_main_obj, char_list_final, loc_list_final, normalized_length, artifact_store=store
             )
 
             main_contracts = await self._patch_scene_contracts_with_location_critic(
@@ -2811,7 +2862,7 @@ class VNOrchestrator:
             state_snapshots_main: Dict[str, StoryState] = {}
             main_scripts = await self._write_scenes(
                 setting=setting_obj,
-                outline=outline_obj,
+                outline=outline_main_obj,
                 scene_contracts=main_contracts,
                 char_list=char_list_final,
                 char_appearance=char_appearance,
@@ -2844,13 +2895,12 @@ class VNOrchestrator:
                 for sc in main_contracts:
                     beat_to_main_scene[sc.beat_id] = sc.id
 
-                beat_items = [it for it in rag_main.story.items if it.get("kind") == "beat"]
 
                 for br in branching_info.branches:
                     if br.id == "main" or not br.from_beat_id:
                         continue
 
-                    br_contracts = await self._generate_scene_contracts_for_branch(
+                    br_outline, br_contracts = await self._generate_scene_contracts_for_branch(
                         outline_obj, char_list_final, loc_list_final, normalized_length, br
                     )
                     if not br_contracts:
@@ -2891,7 +2941,13 @@ class VNOrchestrator:
                         char_index=rag_main.characters,
                         thread_index=rag_main.threads,
                     )
-                    rag_branch.story.import_items(beat_items, kind_filter="beat")
+                    for beat in br_outline.beats:
+                        await rag_branch.story.upsert_item(
+                            f"{br.id}::{beat.id}",
+                            "beat",
+                            beat.summary or "",
+                        )
+
 
                     if divergence_scene_id and divergence_scene_id in state_snapshots_main:
                         branch_state = StoryState(**state_snapshots_main[divergence_scene_id].dict())
@@ -2904,7 +2960,7 @@ class VNOrchestrator:
 
                     br_scripts = await self._write_scenes(
                         setting=setting_obj,
-                        outline=outline_obj,
+                        outline=br_outline,
                         scene_contracts=br_contracts,
                         char_list=char_list_final,
                         char_appearance=char_appearance,
